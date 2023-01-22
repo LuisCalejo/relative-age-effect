@@ -1,0 +1,535 @@
+name,position,club,birthday,month,month_number,quarter,semester
+Ederson, Goalkeeper,Manchester City,"Aug 17, 1993",Aug,8,Q3,S2
+Stefan Ortega, Goalkeeper,Manchester City,"Nov 6, 1992",Nov,11,Q4,S2
+Scott Carson, Goalkeeper,Manchester City,"Sep 3, 1985",Sep,9,Q3,S2
+Rúben Dias, Centre-Back,Manchester City,"May 14, 1997",May,5,Q2,S1
+Aymeric Laporte, Centre-Back,Manchester City,"May 27, 1994",May,5,Q2,S1
+John Stones, Centre-Back,Manchester City,"May 28, 1994",May,5,Q2,S1
+Nathan Aké, Centre-Back,Manchester City,"Feb 18, 1995",Feb,2,Q1,S1
+Manuel Akanji, Centre-Back,Manchester City,"Jul 19, 1995",Jul,7,Q3,S2
+Sergio Gómez, Left-Back,Manchester City,"Sep 4, 2000",Sep,9,Q3,S2
+Benjamin Mendy,  Left-Back,Manchester City,"Jul 17, 1994",Jul,7,Q3,S2
+João Cancelo, Right-Back,Manchester City,"May 27, 1994",May,5,Q2,S1
+Kyle Walker, Right-Back,Manchester City,"May 28, 1990",May,5,Q2,S1
+Rico Lewis, Right-Back,Manchester City,"Nov 21, 2004",Nov,11,Q4,S2
+Rodri, Defensive Midfield,Manchester City,"Jun 22, 1996",Jun,6,Q2,S1
+Kalvin Phillips, Defensive Midfield,Manchester City,"Dec 2, 1995",Dec,12,Q4,S2
+Phil Foden, Central Midfield,Manchester City,"May 28, 2000",May,5,Q2,S1
+Ilkay Gündogan,  Central Midfield,Manchester City,"Oct 24, 1990",Oct,10,Q4,S2
+Kevin De Bruyne, Attacking Midfield,Manchester City,"Jun 28, 1991",Jun,6,Q2,S1
+Bernardo Silva, Attacking Midfield,Manchester City,"Aug 10, 1994",Aug,8,Q3,S2
+Cole Palmer, Attacking Midfield,Manchester City,"May 6, 2002",May,5,Q2,S1
+Jack Grealish, Left Winger,Manchester City,"Sep 10, 1995",Sep,9,Q3,S2
+Riyad Mahrez, Right Winger,Manchester City,"Feb 21, 1991",Feb,2,Q1,S1
+Erling Haaland, Centre-Forward,Manchester City,"Jul 21, 2000",Jul,7,Q3,S2
+Julián Álvarez, Centre-Forward,Manchester City,"Jan 31, 2000",Jan,1,Q1,S1
+Edouard Mendy,  Goalkeeper,Chelsea FC,"Mar 1, 1992",Mar,3,Q1,S1
+Kepa Arrizabalaga, Goalkeeper,Chelsea FC,"Oct 3, 1994",Oct,10,Q4,S2
+Gabriel Slonina, Goalkeeper,Chelsea FC,"May 15, 2004",May,5,Q2,S1
+Marcus Bettinelli, Goalkeeper,Chelsea FC,"May 24, 1992",May,5,Q2,S1
+Wesley Fofana,  Centre-Back,Chelsea FC,"Dec 17, 2000",Dec,12,Q4,S2
+Benoît Badiashile, Centre-Back,Chelsea FC,"Mar 26, 2001",Mar,3,Q1,S1
+Kalidou Koulibaly, Centre-Back,Chelsea FC,"Jun 20, 1991",Jun,6,Q2,S1
+Trevoh Chalobah, Centre-Back,Chelsea FC,"Jul 5, 1999",Jul,7,Q3,S2
+Thiago Silva, Centre-Back,Chelsea FC,"Sep 22, 1984",Sep,9,Q3,S2
+Marc Cucurella, Left-Back,Chelsea FC,"Jul 22, 1998",Jul,7,Q3,S2
+Ben Chilwell,  Left-Back,Chelsea FC,"Dec 21, 1996",Dec,12,Q4,S2
+Lewis Hall, Left-Back,Chelsea FC,"Sep 8, 2004",Sep,9,Q3,S2
+Reece James,  Right-Back,Chelsea FC,"Dec 8, 1999",Dec,12,Q4,S2
+César Azpilicueta,  Right-Back,Chelsea FC,"Aug 28, 1989",Aug,8,Q3,S2
+Jorginho, Defensive Midfield,Chelsea FC,"Dec 20, 1991",Dec,12,Q4,S2
+N'Golo Kanté,  Defensive Midfield,Chelsea FC,"Mar 29, 1991",Mar,3,Q1,S1
+Denis Zakaria,  Defensive Midfield,Chelsea FC,"Nov 20, 1996",Nov,11,Q4,S2
+Mateo Kovacic, Central Midfield,Chelsea FC,"May 6, 1994",May,5,Q2,S1
+Conor Gallagher, Central Midfield,Chelsea FC,"Feb 6, 2000",Feb,2,Q1,S1
+Ruben Loftus-Cheek, Central Midfield,Chelsea FC,"Jan 23, 1996",Jan,1,Q1,S1
+Carney Chukwuemeka, Central Midfield,Chelsea FC,"Oct 20, 2003",Oct,10,Q4,S2
+Andrey Santos, Central Midfield,Chelsea FC,"May 3, 2004",May,5,Q2,S1
+Mason Mount, Attacking Midfield,Chelsea FC,"Jan 10, 1999",Jan,1,Q1,S1
+Kai Havertz, Attacking Midfield,Chelsea FC,"Jun 11, 1999",Jun,6,Q2,S1
+Hakim Ziyech, Attacking Midfield,Chelsea FC,"Mar 19, 1993",Mar,3,Q1,S1
+Raheem Sterling,  Left Winger,Chelsea FC,"Dec 8, 1994",Dec,12,Q4,S2
+Mykhaylo Mudryk, Left Winger,Chelsea FC,"Jan 5, 2001",Jan,1,Q1,S1
+Christian Pulisic,  Right Winger,Chelsea FC,"Sep 18, 1998",Sep,9,Q3,S2
+João Félix,  Second Striker,Chelsea FC,"Nov 10, 1999",Nov,11,Q4,S2
+Armando Broja,  Centre-Forward,Chelsea FC,"Sep 10, 2001",Sep,9,Q3,S2
+Pierre-Emerick Aubameyang, Centre-Forward,Chelsea FC,"Jun 18, 1989",Jun,6,Q2,S1
+David Datro Fofana, Centre-Forward,Chelsea FC,"Dec 22, 2002",Dec,12,Q4,S2
+Alisson, Goalkeeper,Liverpool FC,"Oct 2, 1992",Oct,10,Q4,S2
+Caoimhín Kelleher, Goalkeeper,Liverpool FC,"Nov 23, 1998",Nov,11,Q4,S2
+Adrián, Goalkeeper,Liverpool FC,"Jan 3, 1987",Jan,1,Q1,S1
+Virgil van Dijk,  Centre-Back,Liverpool FC,"Jul 8, 1991",Jul,7,Q3,S2
+Ibrahima Konaté, Centre-Back,Liverpool FC,"May 25, 1999",May,5,Q2,S1
+Joe Gomez, Centre-Back,Liverpool FC,"May 23, 1997",May,5,Q2,S1
+Joel Matip, Centre-Back,Liverpool FC,"Aug 8, 1991",Aug,8,Q3,S2
+Nathaniel Phillips, Centre-Back,Liverpool FC,"Mar 21, 1997",Mar,3,Q1,S1
+Andrew Robertson, Left-Back,Liverpool FC,"Mar 11, 1994",Mar,3,Q1,S1
+Konstantinos Tsimikas, Left-Back,Liverpool FC,"May 12, 1996",May,5,Q2,S1
+Trent Alexander-Arnold, Right-Back,Liverpool FC,"Oct 7, 1998",Oct,10,Q4,S2
+Calvin Ramsay, Right-Back,Liverpool FC,"Jul 31, 2003",Jul,7,Q3,S2
+Fabinho, Defensive Midfield,Liverpool FC,"Oct 23, 1993",Oct,10,Q4,S2
+Stefan Bajcetic, Defensive Midfield,Liverpool FC,"Oct 22, 2004",Oct,10,Q4,S2
+Curtis Jones, Central Midfield,Liverpool FC,"Jan 30, 2001",Jan,1,Q1,S1
+Naby Keïta, Central Midfield,Liverpool FC,"Feb 10, 1995",Feb,2,Q1,S1
+Thiago, Central Midfield,Liverpool FC,"Apr 11, 1991",Apr,4,Q2,S1
+Arthur Melo, Central Midfield,Liverpool FC,"Aug 12, 1996",Aug,8,Q3,S2
+Jordan Henderson,  Central Midfield,Liverpool FC,"Jun 17, 1990",Jun,6,Q2,S1
+Alex Oxlade-Chamberlain, Central Midfield,Liverpool FC,"Aug 15, 1993",Aug,8,Q3,S2
+James Milner, Central Midfield,Liverpool FC,"Jan 4, 1986",Jan,1,Q1,S1
+Harvey Elliott, Attacking Midfield,Liverpool FC,"Apr 4, 2003",Apr,4,Q2,S1
+Fábio Carvalho, Attacking Midfield,Liverpool FC,"Aug 30, 2002",Aug,8,Q3,S2
+Luis Díaz,  Left Winger,Liverpool FC,"Jan 13, 1997",Jan,1,Q1,S1
+Cody Gakpo, Left Winger,Liverpool FC,"May 7, 1999",May,5,Q2,S1
+Diogo Jota,  Left Winger,Liverpool FC,"Dec 4, 1996",Dec,12,Q4,S2
+Mohamed Salah, Right Winger,Liverpool FC,"Jun 15, 1992",Jun,6,Q2,S1
+Darwin Núñez,  Centre-Forward,Liverpool FC,"Jun 24, 1999",Jun,6,Q2,S1
+Roberto Firmino, Centre-Forward,Liverpool FC,"Oct 2, 1991",Oct,10,Q4,S2
+Aaron Ramsdale, Goalkeeper,Arsenal FC,"May 14, 1998",May,5,Q2,S1
+Matt Turner, Goalkeeper,Arsenal FC,"Jun 24, 1994",Jun,6,Q2,S1
+William Saliba, Centre-Back,Arsenal FC,"Mar 24, 2001",Mar,3,Q1,S1
+Ben White, Centre-Back,Arsenal FC,"Oct 8, 1997",Oct,10,Q4,S2
+Gabriel Magalhães, Centre-Back,Arsenal FC,"Dec 19, 1997",Dec,12,Q4,S2
+Rob Holding, Centre-Back,Arsenal FC,"Sep 20, 1995",Sep,9,Q3,S2
+Oleksandr Zinchenko, Left-Back,Arsenal FC,"Dec 15, 1996",Dec,12,Q4,S2
+Kieran Tierney, Left-Back,Arsenal FC,"Jun 5, 1997",Jun,6,Q2,S1
+Takehiro Tomiyasu, Right-Back,Arsenal FC,"Nov 5, 1998",Nov,11,Q4,S2
+Cédric Soares, Right-Back,Arsenal FC,"Aug 31, 1991",Aug,8,Q3,S2
+Thomas Partey, Defensive Midfield,Arsenal FC,"Jun 13, 1993",Jun,6,Q2,S1
+Granit Xhaka, Defensive Midfield,Arsenal FC,"Sep 27, 1992",Sep,9,Q3,S2
+Mohamed Elneny, Defensive Midfield,Arsenal FC,"Jul 11, 1992",Jul,7,Q3,S2
+Albert Sambi Lokonga, Central Midfield,Arsenal FC,"Oct 22, 1999",Oct,10,Q4,S2
+Bukayo Saka, Right Midfield,Arsenal FC,"Sep 5, 2001",Sep,9,Q3,S2
+Martin Ødegaard,  Attacking Midfield,Arsenal FC,"Dec 17, 1998",Dec,12,Q4,S2
+Emile Smith Rowe, Attacking Midfield,Arsenal FC,"Jul 28, 2000",Jul,7,Q3,S2
+Fábio Vieira, Attacking Midfield,Arsenal FC,"May 30, 2000",May,5,Q2,S1
+Gabriel Martinelli, Left Winger,Arsenal FC,"Jun 18, 2001",Jun,6,Q2,S1
+Marquinhos, Right Winger,Arsenal FC,"Apr 7, 2003",Apr,4,Q2,S1
+Reiss Nelson,  Right Winger,Arsenal FC,"Dec 10, 1999",Dec,12,Q4,S2
+Gabriel Jesus,  Centre-Forward,Arsenal FC,"Apr 3, 1997",Apr,4,Q2,S1
+Eddie Nketiah, Centre-Forward,Arsenal FC,"May 30, 1999",May,5,Q2,S1
+David de Gea, Goalkeeper,Manchester United,"Nov 7, 1990",Nov,11,Q4,S2
+Jack Butland, Goalkeeper,Manchester United,"Mar 10, 1993",Mar,3,Q1,S1
+Tom Heaton, Goalkeeper,Manchester United,"Apr 15, 1986",Apr,4,Q2,S1
+Lisandro Martínez,  Centre-Back,Manchester United,"Jan 18, 1998",Jan,1,Q1,S1
+Raphaël Varane, Centre-Back,Manchester United,"Apr 25, 1993",Apr,4,Q2,S1
+Harry Maguire,  Centre-Back,Manchester United,"Mar 5, 1993",Mar,3,Q1,S1
+Victor Lindelöf, Centre-Back,Manchester United,"Jul 17, 1994",Jul,7,Q3,S2
+Axel Tuanzebe,  Centre-Back,Manchester United,"Nov 14, 1997",Nov,11,Q4,S2
+Phil Jones, Centre-Back,Manchester United,"Feb 21, 1992",Feb,2,Q1,S1
+Luke Shaw, Left-Back,Manchester United,"Jul 12, 1995",Jul,7,Q3,S2
+Tyrell Malacia, Left-Back,Manchester United,"Aug 17, 1999",Aug,8,Q3,S2
+Brandon Williams, Left-Back,Manchester United,"Sep 3, 2000",Sep,9,Q3,S2
+Diogo Dalot, Right-Back,Manchester United,"Mar 18, 1999",Mar,3,Q1,S1
+Aaron Wan-Bissaka, Right-Back,Manchester United,"Nov 26, 1997",Nov,11,Q4,S2
+Casemiro, Defensive Midfield,Manchester United,"Feb 23, 1992",Feb,2,Q1,S1
+Scott McTominay, Defensive Midfield,Manchester United,"Dec 8, 1996",Dec,12,Q4,S2
+Fred, Central Midfield,Manchester United,"Mar 5, 1993",Mar,3,Q1,S1
+Donny van de Beek,  Central Midfield,Manchester United,"Apr 18, 1997",Apr,4,Q2,S1
+Bruno Fernandes, Attacking Midfield,Manchester United,"Sep 8, 1994",Sep,9,Q3,S2
+Christian Eriksen, Attacking Midfield,Manchester United,"Feb 14, 1992",Feb,2,Q1,S1
+Jadon Sancho, Left Winger,Manchester United,"Mar 25, 2000",Mar,3,Q1,S1
+Marcus Rashford, Left Winger,Manchester United,"Oct 31, 1997",Oct,10,Q4,S2
+Anthony Elanga, Left Winger,Manchester United,"Apr 27, 2002",Apr,4,Q2,S1
+Alejandro Garnacho, Left Winger,Manchester United,"Jul 1, 2004",Jul,7,Q3,S2
+Antony, Right Winger,Manchester United,"Feb 24, 2000",Feb,2,Q1,S1
+Facundo Pellistri, Right Winger,Manchester United,"Dec 20, 2001",Dec,12,Q4,S2
+Mason Greenwood,  Right Winger,Manchester United,"Oct 1, 2001",Oct,10,Q4,S2
+Anthony Martial, Centre-Forward,Manchester United,"Dec 5, 1995",Dec,12,Q4,S2
+Wout Weghorst, Centre-Forward,Manchester United,"Aug 7, 1992",Aug,8,Q3,S2
+Hugo Lloris,  Goalkeeper,Tottenham Hotspur,"Dec 26, 1986",Dec,12,Q4,S2
+Fraser Forster, Goalkeeper,Tottenham Hotspur,"Mar 17, 1988",Mar,3,Q1,S1
+Alfie Whiteman, Goalkeeper,Tottenham Hotspur,"Oct 2, 1998",Oct,10,Q4,S2
+Brandon Austin, Goalkeeper,Tottenham Hotspur,"Jan 8, 1999",Jan,1,Q1,S1
+Cristian Romero, Centre-Back,Tottenham Hotspur,"Apr 27, 1998",Apr,4,Q2,S1
+Eric Dier, Centre-Back,Tottenham Hotspur,"Jan 15, 1994",Jan,1,Q1,S1
+Davinson Sánchez, Centre-Back,Tottenham Hotspur,"Jun 12, 1996",Jun,6,Q2,S1
+Clément Lenglet, Centre-Back,Tottenham Hotspur,"Jun 17, 1995",Jun,6,Q2,S1
+Japhet Tanganga, Centre-Back,Tottenham Hotspur,"Mar 31, 1999",Mar,3,Q1,S1
+Ben Davies, Left-Back,Tottenham Hotspur,"Apr 24, 1993",Apr,4,Q2,S1
+Emerson Royal, Right-Back,Tottenham Hotspur,"Jan 14, 1999",Jan,1,Q1,S1
+Djed Spence, Right-Back,Tottenham Hotspur,"Aug 9, 2000",Aug,8,Q3,S2
+Matt Doherty, Right-Back,Tottenham Hotspur,"Jan 16, 1992",Jan,1,Q1,S1
+Oliver Skipp, Defensive Midfield,Tottenham Hotspur,"Sep 16, 2000",Sep,9,Q3,S2
+Pierre-Emile Höjbjerg,  Central Midfield,Tottenham Hotspur,"Aug 5, 1995",Aug,8,Q3,S2
+Rodrigo Bentancur,  Central Midfield,Tottenham Hotspur,"Jun 25, 1997",Jun,6,Q2,S1
+Yves Bissouma, Central Midfield,Tottenham Hotspur,"Aug 30, 1996",Aug,8,Q3,S2
+Pape Matar Sarr, Central Midfield,Tottenham Hotspur,"Sep 14, 2002",Sep,9,Q3,S2
+Ryan Sessegnon, Left Midfield,Tottenham Hotspur,"May 18, 2000",May,5,Q2,S1
+Ivan Perisic, Left Midfield,Tottenham Hotspur,"Feb 2, 1989",Feb,2,Q1,S1
+Heung-min Son, Left Winger,Tottenham Hotspur,"Jul 8, 1992",Jul,7,Q3,S2
+Bryan Gil, Left Winger,Tottenham Hotspur,"Feb 11, 2001",Feb,2,Q1,S1
+Dejan Kulusevski, Right Winger,Tottenham Hotspur,"Apr 25, 2000",Apr,4,Q2,S1
+Lucas Moura, Right Winger,Tottenham Hotspur,"Aug 13, 1992",Aug,8,Q3,S2
+Harry Kane, Centre-Forward,Tottenham Hotspur,"Jul 28, 1993",Jul,7,Q3,S2
+Richarlison,  Centre-Forward,Tottenham Hotspur,"May 10, 1997",May,5,Q2,S1
+Emiliano Martínez, Goalkeeper,Aston Villa,"Sep 2, 1992",Sep,9,Q3,S2
+Robin Olsen, Goalkeeper,Aston Villa,"Jan 8, 1990",Jan,1,Q1,S1
+Jed Steer, Goalkeeper,Aston Villa,"Sep 23, 1992",Sep,9,Q3,S2
+Diego Carlos,  Centre-Back,Aston Villa,"Mar 15, 1993",Mar,3,Q1,S1
+Tyrone Mings, Centre-Back,Aston Villa,"Mar 13, 1993",Mar,3,Q1,S1
+Ezri Konsa, Centre-Back,Aston Villa,"Oct 23, 1997",Oct,10,Q4,S2
+Jan Bednarek, Centre-Back,Aston Villa,"Apr 12, 1996",Apr,4,Q2,S1
+Calum Chambers, Centre-Back,Aston Villa,"Jan 20, 1995",Jan,1,Q1,S1
+Lucas Digne, Left-Back,Aston Villa,"Jul 20, 1993",Jul,7,Q3,S2
+Álex Moreno, Left-Back,Aston Villa,"Jun 8, 1993",Jun,6,Q2,S1
+Ludwig Augustinsson, Left-Back,Aston Villa,"Apr 21, 1994",Apr,4,Q2,S1
+Matty Cash, Right-Back,Aston Villa,"Aug 7, 1997",Aug,8,Q3,S2
+Ashley Young, Right-Back,Aston Villa,"Jul 9, 1985",Jul,7,Q3,S2
+Boubacar Kamara, Defensive Midfield,Aston Villa,"Nov 23, 1999",Nov,11,Q4,S2
+Leander Dendoncker, Defensive Midfield,Aston Villa,"Apr 15, 1995",Apr,4,Q2,S1
+Marvelous Nakamba, Defensive Midfield,Aston Villa,"Jan 19, 1994",Jan,1,Q1,S1
+Douglas Luiz, Central Midfield,Aston Villa,"May 9, 1998",May,5,Q2,S1
+John McGinn,   Central Midfield,Aston Villa,"Oct 18, 1994",Oct,10,Q4,S2
+Jacob Ramsey, Central Midfield,Aston Villa,"May 28, 2001",May,5,Q2,S1
+Morgan Sanson, Central Midfield,Aston Villa,"Aug 18, 1994",Aug,8,Q3,S2
+Leon Bailey, Left Winger,Aston Villa,"Aug 9, 1997",Aug,8,Q3,S2
+Philippe Coutinho, Left Winger,Aston Villa,"Jun 12, 1992",Jun,6,Q2,S1
+Emiliano Buendía, Right Winger,Aston Villa,"Dec 25, 1996",Dec,12,Q4,S2
+Ollie Watkins, Centre-Forward,Aston Villa,"Dec 30, 1995",Dec,12,Q4,S2
+Danny Ings, Centre-Forward,Aston Villa,"Jul 23, 1992",Jul,7,Q3,S2
+Jhon Durán, Centre-Forward,Aston Villa,"Dec 13, 2003",Dec,12,Q4,S2
+Alphonse Areola, Goalkeeper,West Ham United,"Feb 27, 1993",Feb,2,Q1,S1
+Lukasz Fabianski, Goalkeeper,West Ham United,"Apr 18, 1985",Apr,4,Q2,S1
+Darren Randolph, Goalkeeper,West Ham United,"May 12, 1987",May,5,Q2,S1
+Kurt Zouma, Centre-Back,West Ham United,"Oct 27, 1994",Oct,10,Q4,S2
+Nayef Aguerd, Centre-Back,West Ham United,"Mar 30, 1996",Mar,3,Q1,S1
+Thilo Kehrer, Centre-Back,West Ham United,"Sep 21, 1996",Sep,9,Q3,S2
+Craig Dawson, Centre-Back,West Ham United,"May 6, 1990",May,5,Q2,S1
+Luizão, Centre-Back,West Ham United,"Mar 8, 2002",Mar,3,Q1,S1
+Angelo Ogbonna, Centre-Back,West Ham United,"May 23, 1988",May,5,Q2,S1
+Emerson, Left-Back,West Ham United,"Aug 3, 1994",Aug,8,Q3,S2
+Aaron Cresswell,  Left-Back,West Ham United,"Dec 15, 1989",Dec,12,Q4,S2
+Ben Johnson, Right-Back,West Ham United,"Jan 24, 2000",Jan,1,Q1,S1
+Vladimir Coufal, Right-Back,West Ham United,"Aug 22, 1992",Aug,8,Q3,S2
+Declan Rice,  Defensive Midfield,West Ham United,"Jan 14, 1999",Jan,1,Q1,S1
+Tomas Soucek, Defensive Midfield,West Ham United,"Feb 27, 1995",Feb,2,Q1,S1
+Conor Coventry, Defensive Midfield,West Ham United,"Mar 25, 2000",Mar,3,Q1,S1
+Flynn Downes, Central Midfield,West Ham United,"Jan 20, 1999",Jan,1,Q1,S1
+Lucas Paquetá, Attacking Midfield,West Ham United,"Aug 27, 1997",Aug,8,Q3,S2
+Pablo Fornals, Attacking Midfield,West Ham United,"Feb 22, 1996",Feb,2,Q1,S1
+Manuel Lanzini, Attacking Midfield,West Ham United,"Feb 15, 1993",Feb,2,Q1,S1
+Saïd Benrahma, Left Winger,West Ham United,"Aug 10, 1995",Aug,8,Q3,S2
+Maxwel Cornet, Left Winger,West Ham United,"Sep 27, 1996",Sep,9,Q3,S2
+Jarrod Bowen, Right Winger,West Ham United,"Dec 20, 1996",Dec,12,Q4,S2
+Gianluca Scamacca, Centre-Forward,West Ham United,"Jan 1, 1999",Jan,1,Q1,S1
+Michail Antonio, Centre-Forward,West Ham United,"Mar 28, 1990",Mar,3,Q1,S1
+Nick Pope, Goalkeeper,Newcastle United,"Apr 19, 1992",Apr,4,Q2,S1
+Martin Dúbravka, Goalkeeper,Newcastle United,"Jan 15, 1989",Jan,1,Q1,S1
+Karl Darlow, Goalkeeper,Newcastle United,"Oct 8, 1990",Oct,10,Q4,S2
+Loris Karius, Goalkeeper,Newcastle United,"Jun 22, 1993",Jun,6,Q2,S1
+Mark Gillespie, Goalkeeper,Newcastle United,"Mar 27, 1992",Mar,3,Q1,S1
+Sven Botman, Centre-Back,Newcastle United,"Jan 12, 2000",Jan,1,Q1,S1
+Dan Burn, Centre-Back,Newcastle United,"May 9, 1992",May,5,Q2,S1
+Fabian Schär, Centre-Back,Newcastle United,"Dec 20, 1991",Dec,12,Q4,S2
+Jamaal Lascelles,  Centre-Back,Newcastle United,"Nov 11, 1993",Nov,11,Q4,S2
+Matt Targett, Left-Back,Newcastle United,"Sep 18, 1995",Sep,9,Q3,S2
+Jamal Lewis, Left-Back,Newcastle United,"Jan 25, 1998",Jan,1,Q1,S1
+Paul Dummett, Left-Back,Newcastle United,"Sep 26, 1991",Sep,9,Q3,S2
+Kieran Trippier, Right-Back,Newcastle United,"Sep 19, 1990",Sep,9,Q3,S2
+Emil Krafth,  Right-Back,Newcastle United,"Aug 2, 1994",Aug,8,Q3,S2
+Javier Manquillo, Right-Back,Newcastle United,"May 5, 1994",May,5,Q2,S1
+Bruno Guimarães, Defensive Midfield,Newcastle United,"Nov 16, 1997",Nov,11,Q4,S2
+Joe Willock, Central Midfield,Newcastle United,"Aug 20, 1999",Aug,8,Q3,S2
+Sean Longstaff, Central Midfield,Newcastle United,"Oct 30, 1997",Oct,10,Q4,S2
+Jonjo Shelvey, Central Midfield,Newcastle United,"Feb 27, 1992",Feb,2,Q1,S1
+Matty Longstaff,  Central Midfield,Newcastle United,"Mar 21, 2000",Mar,3,Q1,S1
+Matt Ritchie, Right Midfield,Newcastle United,"Sep 10, 1989",Sep,9,Q3,S2
+Joelinton, Attacking Midfield,Newcastle United,"Aug 14, 1996",Aug,8,Q3,S2
+Elliot Anderson, Attacking Midfield,Newcastle United,"Nov 6, 2002",Nov,11,Q4,S2
+Allan Saint-Maximin, Left Winger,Newcastle United,"Mar 12, 1997",Mar,3,Q1,S1
+Ryan Fraser, Left Winger,Newcastle United,"Feb 24, 1994",Feb,2,Q1,S1
+Miguel Almirón, Right Winger,Newcastle United,"Feb 10, 1994",Feb,2,Q1,S1
+Jacob Murphy, Right Winger,Newcastle United,"Feb 24, 1995",Feb,2,Q1,S1
+Alexander Isak, Centre-Forward,Newcastle United,"Sep 21, 1999",Sep,9,Q3,S2
+Callum Wilson, Centre-Forward,Newcastle United,"Feb 27, 1992",Feb,2,Q1,S1
+Chris Wood, Centre-Forward,Newcastle United,"Dec 7, 1991",Dec,12,Q4,S2
+Danny Ward, Goalkeeper,Leicester City,"Jun 22, 1993",Jun,6,Q2,S1
+Daniel Iversen, Goalkeeper,Leicester City,"Jul 19, 1997",Jul,7,Q3,S2
+Alex Smithies, Goalkeeper,Leicester City,"Mar 5, 1990",Mar,3,Q1,S1
+Caglar Söyüncü, Centre-Back,Leicester City,"May 23, 1996",May,5,Q2,S1
+Wout Faes, Centre-Back,Leicester City,"Apr 3, 1998",Apr,4,Q2,S1
+Daniel Amartey, Centre-Back,Leicester City,"Dec 21, 1994",Dec,12,Q4,S2
+Jannik Vestergaard, Centre-Back,Leicester City,"Aug 3, 1992",Aug,8,Q3,S2
+Jonny Evans,   Centre-Back,Leicester City,"Jan 3, 1988",Jan,1,Q1,S1
+Luke Thomas, Left-Back,Leicester City,"Jun 10, 2001",Jun,6,Q2,S1
+Ryan Bertrand,  Left-Back,Leicester City,"Aug 5, 1989",Aug,8,Q3,S2
+Timothy Castagne, Right-Back,Leicester City,"Dec 5, 1995",Dec,12,Q4,S2
+James Justin,  Right-Back,Leicester City,"Feb 23, 1998",Feb,2,Q1,S1
+Ricardo Pereira,  Right-Back,Leicester City,"Oct 6, 1993",Oct,10,Q4,S2
+Wilfred Ndidi, Defensive Midfield,Leicester City,"Dec 16, 1996",Dec,12,Q4,S2
+Boubakary Soumaré, Defensive Midfield,Leicester City,"Feb 27, 1999",Feb,2,Q1,S1
+Nampalys Mendy, Defensive Midfield,Leicester City,"Jun 23, 1992",Jun,6,Q2,S1
+Youri Tielemans, Central Midfield,Leicester City,"May 7, 1997",May,5,Q2,S1
+Kiernan Dewsbury-Hall, Central Midfield,Leicester City,"Sep 6, 1998",Sep,9,Q3,S2
+Dennis Praet,  Central Midfield,Leicester City,"May 14, 1994",May,5,Q2,S1
+Marc Albrighton, Right Midfield,Leicester City,"Nov 18, 1989",Nov,11,Q4,S2
+Harvey Barnes, Left Midfield,Leicester City,"Dec 9, 1997",Dec,12,Q4,S2
+James Maddison,  Attacking Midfield,Leicester City,"Nov 23, 1996",Nov,11,Q4,S2
+Ayoze Pérez, Second Striker,Leicester City,"Jul 29, 1993",Jul,7,Q3,S2
+Patson Daka, Centre-Forward,Leicester City,"Oct 9, 1998",Oct,10,Q4,S2
+Kelechi Iheanacho, Centre-Forward,Leicester City,"Oct 3, 1996",Oct,10,Q4,S2
+Jamie Vardy, Centre-Forward,Leicester City,"Jan 11, 1987",Jan,1,Q1,S1
+José Sá, Goalkeeper,Wolverhampton Wanderers,"Jan 17, 1993",Jan,1,Q1,S1
+Matija Sarkic, Goalkeeper,Wolverhampton Wanderers,"Jul 23, 1997",Jul,7,Q3,S2
+Louie Moulden, Goalkeeper,Wolverhampton Wanderers,"Jan 6, 2002",Jan,1,Q1,S1
+Nathan Collins, Centre-Back,Wolverhampton Wanderers,"Apr 30, 2001",Apr,4,Q2,S1
+Max Kilman, Centre-Back,Wolverhampton Wanderers,"May 23, 1997",May,5,Q2,S1
+Yerson Mosquera, Centre-Back,Wolverhampton Wanderers,"May 2, 2001",May,5,Q2,S1
+Toti, Centre-Back,Wolverhampton Wanderers,"Jan 16, 1999",Jan,1,Q1,S1
+Rayan Aït-Nouri, Left-Back,Wolverhampton Wanderers,"Jun 6, 2001",Jun,6,Q2,S1
+Jonny Otto, Left-Back,Wolverhampton Wanderers,"Mar 3, 1994",Mar,3,Q1,S1
+Nélson Semedo, Right-Back,Wolverhampton Wanderers,"Nov 16, 1993",Nov,11,Q4,S2
+Rúben Neves, Defensive Midfield,Wolverhampton Wanderers,"Mar 13, 1997",Mar,3,Q1,S1
+Mario Lemina, Defensive Midfield,Wolverhampton Wanderers,"Sep 1, 1993",Sep,9,Q3,S2
+Boubacar Traoré, Defensive Midfield,Wolverhampton Wanderers,"Aug 20, 2001",Aug,8,Q3,S2
+Joe Hodge, Defensive Midfield,Wolverhampton Wanderers,"Sep 14, 2002",Sep,9,Q3,S2
+Matheus Nunes, Central Midfield,Wolverhampton Wanderers,"Aug 27, 1998",Aug,8,Q3,S2
+João Moutinho, Central Midfield,Wolverhampton Wanderers,"Sep 8, 1986",Sep,9,Q3,S2
+Connor Ronan, Central Midfield,Wolverhampton Wanderers,"Mar 6, 1998",Mar,3,Q1,S1
+Gonçalo Guedes, Left Winger,Wolverhampton Wanderers,"Nov 29, 1996",Nov,11,Q4,S2
+Daniel Podence, Left Winger,Wolverhampton Wanderers,"Oct 21, 1995",Oct,10,Q4,S2
+Chiquinho,  Left Winger,Wolverhampton Wanderers,"Feb 5, 2000",Feb,2,Q1,S1
+Pedro Neto, Right Winger,Wolverhampton Wanderers,"Mar 9, 2000",Mar,3,Q1,S1
+Pablo Sarabia, Right Winger,Wolverhampton Wanderers,"May 11, 1992",May,5,Q2,S1
+Adama Traoré, Right Winger,Wolverhampton Wanderers,"Jan 25, 1996",Jan,1,Q1,S1
+Matheus Cunha, Centre-Forward,Wolverhampton Wanderers,"May 27, 1999",May,5,Q2,S1
+Sasa Kalajdzic,  Centre-Forward,Wolverhampton Wanderers,"Jul 7, 1997",Jul,7,Q3,S2
+Raúl Jiménez, Centre-Forward,Wolverhampton Wanderers,"May 5, 1991",May,5,Q2,S1
+Hee-chan Hwang, Centre-Forward,Wolverhampton Wanderers,"Jan 26, 1996",Jan,1,Q1,S1
+Diego Costa, Centre-Forward,Wolverhampton Wanderers,"Oct 7, 1988",Oct,10,Q4,S2
+Leonardo Campana, Centre-Forward,Wolverhampton Wanderers,"Jul 24, 2000",Jul,7,Q3,S2
+Jordan Pickford, Goalkeeper,Everton FC,"Mar 7, 1994",Mar,3,Q1,S1
+Asmir Begovic, Goalkeeper,Everton FC,"Jun 20, 1987",Jun,6,Q2,S1
+Andy Lonergan,  Goalkeeper,Everton FC,"Oct 19, 1983",Oct,10,Q4,S2
+Eldin Jakupovic, Goalkeeper,Everton FC,"Oct 2, 1984",Oct,10,Q4,S2
+James Tarkowski, Centre-Back,Everton FC,"Nov 19, 1992",Nov,11,Q4,S2
+Yerry Mina, Centre-Back,Everton FC,"Sep 23, 1994",Sep,9,Q3,S2
+Ben Godfrey, Centre-Back,Everton FC,"Jan 15, 1998",Jan,1,Q1,S1
+Conor Coady, Centre-Back,Everton FC,"Feb 25, 1993",Feb,2,Q1,S1
+Mason Holgate, Centre-Back,Everton FC,"Oct 22, 1996",Oct,10,Q4,S2
+Michael Keane, Centre-Back,Everton FC,"Jan 11, 1993",Jan,1,Q1,S1
+Vitaliy Mykolenko, Left-Back,Everton FC,"May 29, 1999",May,5,Q2,S1
+Rúben Vinagre, Left-Back,Everton FC,"Apr 9, 1999",Apr,4,Q2,S1
+Nathan Patterson, Right-Back,Everton FC,"Oct 16, 2001",Oct,10,Q4,S2
+Seamus Coleman,  Right-Back,Everton FC,"Oct 11, 1988",Oct,10,Q4,S2
+Amadou Onana, Defensive Midfield,Everton FC,"Aug 16, 2001",Aug,8,Q3,S2
+James Garner, Defensive Midfield,Everton FC,"Mar 13, 2001",Mar,3,Q1,S1
+Abdoulaye Doucouré, Central Midfield,Everton FC,"Jan 1, 1993",Jan,1,Q1,S1
+Tom Davies, Central Midfield,Everton FC,"Jun 30, 1998",Jun,6,Q2,S1
+Idrissa Gueye, Central Midfield,Everton FC,"Sep 26, 1989",Sep,9,Q3,S2
+Alex Iwobi, Attacking Midfield,Everton FC,"May 3, 1996",May,5,Q2,S1
+Anthony Gordon, Left Winger,Everton FC,"Feb 24, 2001",Feb,2,Q1,S1
+Demarai Gray, Left Winger,Everton FC,"Jun 28, 1996",Jun,6,Q2,S1
+Dwight McNeil, Left Winger,Everton FC,"Nov 22, 1999",Nov,11,Q4,S2
+Andros Townsend,  Right Winger,Everton FC,"Jul 16, 1991",Jul,7,Q3,S2
+Dominic Calvert-Lewin, Centre-Forward,Everton FC,"Mar 16, 1997",Mar,3,Q1,S1
+Neal Maupay, Centre-Forward,Everton FC,"Aug 14, 1996",Aug,8,Q3,S2
+Ellis Simms, Centre-Forward,Everton FC,"Jan 5, 2001",Jan,1,Q1,S1
+Robert Sánchez, Goalkeeper,Brighton & Hove Albion,"Nov 18, 1997",Nov,11,Q4,S2
+Jason Steele, Goalkeeper,Brighton & Hove Albion,"Aug 18, 1990",Aug,8,Q3,S2
+Adam Webster, Centre-Back,Brighton & Hove Albion,"Jan 4, 1995",Jan,1,Q1,S1
+Lewis Dunk,  Centre-Back,Brighton & Hove Albion,"Nov 21, 1991",Nov,11,Q4,S2
+Levi Colwill, Centre-Back,Brighton & Hove Albion,"Feb 26, 2003",Feb,2,Q1,S1
+Jan Paul van Hecke, Centre-Back,Brighton & Hove Albion,"Jun 8, 2000",Jun,6,Q2,S1
+Pervis Estupiñán, Left-Back,Brighton & Hove Albion,"Jan 21, 1998",Jan,1,Q1,S1
+Tariq Lamptey, Right-Back,Brighton & Hove Albion,"Sep 30, 2000",Sep,9,Q3,S2
+Joël Veltman, Right-Back,Brighton & Hove Albion,"Jan 15, 1992",Jan,1,Q1,S1
+Alexis Mac Allister, Central Midfield,Brighton & Hove Albion,"Dec 24, 1998",Dec,12,Q4,S2
+Moisés Caicedo, Central Midfield,Brighton & Hove Albion,"Nov 2, 2001",Nov,11,Q4,S2
+Jakub Moder,  Central Midfield,Brighton & Hove Albion,"Apr 7, 1999",Apr,4,Q2,S1
+Billy Gilmour, Central Midfield,Brighton & Hove Albion,"Jun 11, 2001",Jun,6,Q2,S1
+Pascal Groß, Central Midfield,Brighton & Hove Albion,"Jun 15, 1991",Jun,6,Q2,S1
+Solly March, Left Midfield,Brighton & Hove Albion,"Jul 20, 1994",Jul,7,Q3,S2
+Facundo Buonanotte, Attacking Midfield,Brighton & Hove Albion,"Dec 23, 2004",Dec,12,Q4,S2
+Jeremy Sarmiento, Attacking Midfield,Brighton & Hove Albion,"Jun 16, 2002",Jun,6,Q2,S1
+Adam Lallana, Attacking Midfield,Brighton & Hove Albion,"May 10, 1988",May,5,Q2,S1
+Leandro Trossard, Left Winger,Brighton & Hove Albion,"Dec 4, 1994",Dec,12,Q4,S2
+Kaoru Mitoma, Left Winger,Brighton & Hove Albion,"May 20, 1997",May,5,Q2,S1
+Julio Enciso, Second Striker,Brighton & Hove Albion,"Jan 23, 2004",Jan,1,Q1,S1
+Danny Welbeck,  Centre-Forward,Brighton & Hove Albion,"Nov 26, 1990",Nov,11,Q4,S2
+Deniz Undav, Centre-Forward,Brighton & Hove Albion,"Jul 19, 1996",Jul,7,Q3,S2
+Evan Ferguson, Centre-Forward,Brighton & Hove Albion,"Oct 19, 2004",Oct,10,Q4,S2
+Gavin Bazunu, Goalkeeper,Southampton FC,"Feb 20, 2002",Feb,2,Q1,S1
+Alex McCarthy, Goalkeeper,Southampton FC,"Dec 3, 1989",Dec,12,Q4,S2
+Willy Caballero, Goalkeeper,Southampton FC,"Sep 28, 1981",Sep,9,Q3,S2
+Mohammed Salisu, Centre-Back,Southampton FC,"Apr 17, 1999",Apr,4,Q2,S1
+Armel Bella-Kotchap, Centre-Back,Southampton FC,"Dec 11, 2001",Dec,12,Q4,S2
+Duje Caleta-Car, Centre-Back,Southampton FC,"Sep 17, 1996",Sep,9,Q3,S2
+Lyanco, Centre-Back,Southampton FC,"Feb 1, 1997",Feb,2,Q1,S1
+Romain Perraud, Left-Back,Southampton FC,"Sep 22, 1997",Sep,9,Q3,S2
+Juan Larios, Left-Back,Southampton FC,"Jan 12, 2004",Jan,1,Q1,S1
+Kyle Walker-Peters, Right-Back,Southampton FC,"Apr 13, 1997",Apr,4,Q2,S1
+Tino Livramento,  Right-Back,Southampton FC,"Nov 12, 2002",Nov,11,Q4,S2
+Roméo Lavia, Defensive Midfield,Southampton FC,"Jan 6, 2004",Jan,1,Q1,S1
+Ibrahima Diallo, Defensive Midfield,Southampton FC,"Mar 8, 1999",Mar,3,Q1,S1
+James Ward-Prowse,  Central Midfield,Southampton FC,"Nov 1, 1994",Nov,11,Q4,S2
+Carlos Alcaraz, Central Midfield,Southampton FC,"Nov 30, 2002",Nov,11,Q4,S2
+Stuart Armstrong, Central Midfield,Southampton FC,"Mar 30, 1992",Mar,3,Q1,S1
+Ainsley Maitland-Niles, Right Midfield,Southampton FC,"Aug 29, 1997",Aug,8,Q3,S2
+Joe Aribo, Attacking Midfield,Southampton FC,"Jul 21, 1996",Jul,7,Q3,S2
+Mohamed Elyounoussi, Left Winger,Southampton FC,"Aug 4, 1994",Aug,8,Q3,S2
+Mislav Orsic, Left Winger,Southampton FC,"Dec 29, 1992",Dec,12,Q4,S2
+Moussa Djenepo, Left Winger,Southampton FC,"Jun 15, 1998",Jun,6,Q2,S1
+Samuel Edozie, Left Winger,Southampton FC,"Jan 28, 2003",Jan,1,Q1,S1
+Theo Walcott,  Right Winger,Southampton FC,"Mar 16, 1989",Mar,3,Q1,S1
+Ché Adams, Centre-Forward,Southampton FC,"Jul 13, 1996",Jul,7,Q3,S2
+Adam Armstrong, Centre-Forward,Southampton FC,"Feb 10, 1997",Feb,2,Q1,S1
+Sékou Mara, Centre-Forward,Southampton FC,"Jul 30, 2002",Jul,7,Q3,S2
+David Raya, Goalkeeper,Brentford FC,"Sep 15, 1995",Sep,9,Q3,S2
+Thomas Strakosha, Goalkeeper,Brentford FC,"Mar 19, 1995",Mar,3,Q1,S1
+Kristoffer Ajer, Centre-Back,Brentford FC,"Apr 17, 1998",Apr,4,Q2,S1
+Ethan Pinnock, Centre-Back,Brentford FC,"May 29, 1993",May,5,Q2,S1
+Pontus Jansson,  Centre-Back,Brentford FC,"Feb 13, 1991",Feb,2,Q1,S1
+Ben Mee, Centre-Back,Brentford FC,"Sep 21, 1989",Sep,9,Q3,S2
+Zanka, Centre-Back,Brentford FC,"Apr 23, 1990",Apr,4,Q2,S1
+Charlie Goode, Centre-Back,Brentford FC,"Aug 3, 1995",Aug,8,Q3,S2
+Rico Henry, Left-Back,Brentford FC,"Jul 8, 1997",Jul,7,Q3,S2
+Aaron Hickey, Left-Back,Brentford FC,"Jun 10, 2002",Jun,6,Q2,S1
+Mads Roerslev, Right-Back,Brentford FC,"Jun 24, 1999",Jun,6,Q2,S1
+Fin Stevens, Right-Back,Brentford FC,"Apr 10, 2003",Apr,4,Q2,S1
+Vitaly Janelt, Defensive Midfield,Brentford FC,"May 10, 1998",May,5,Q2,S1
+Christian Nörgaard, Defensive Midfield,Brentford FC,"Mar 10, 1994",Mar,3,Q1,S1
+Mathias Jensen, Central Midfield,Brentford FC,"Jan 1, 1996",Jan,1,Q1,S1
+Josh Dasilva, Central Midfield,Brentford FC,"Oct 23, 1998",Oct,10,Q4,S2
+Frank Onyeka, Central Midfield,Brentford FC,"Jan 1, 1998",Jan,1,Q1,S1
+Shandon Baptiste, Central Midfield,Brentford FC,"Apr 8, 1998",Apr,4,Q2,S1
+Saman Ghoddos, Attacking Midfield,Brentford FC,"Sep 6, 1993",Sep,9,Q3,S2
+Keane Lewis-Potter, Left Winger,Brentford FC,"Feb 22, 2001",Feb,2,Q1,S1
+Yoane Wissa, Left Winger,Brentford FC,"Sep 3, 1996",Sep,9,Q3,S2
+Mikkel Damsgaard, Left Winger,Brentford FC,"Jul 3, 2000",Jul,7,Q3,S2
+Bryan Mbeumo, Right Winger,Brentford FC,"Aug 7, 1999",Aug,8,Q3,S2
+Sergi Canós, Right Winger,Brentford FC,"Feb 2, 1997",Feb,2,Q1,S1
+Kevin Schade, Right Winger,Brentford FC,"Nov 27, 2001",Nov,11,Q4,S2
+Ivan Toney, Centre-Forward,Brentford FC,"Mar 16, 1996",Mar,3,Q1,S1
+Dean Henderson,  Goalkeeper,Nottingham Forest,"Mar 12, 1997",Mar,3,Q1,S1
+Wayne Hennessey, Goalkeeper,Nottingham Forest,"Jan 24, 1987",Jan,1,Q1,S1
+Jordan Smith, Goalkeeper,Nottingham Forest,"Dec 8, 1994",Dec,12,Q4,S2
+Adnan Kanuric, Goalkeeper,Nottingham Forest,"Aug 8, 2000",Aug,8,Q3,S2
+Moussa Niakhaté,  Centre-Back,Nottingham Forest,"Mar 8, 1996",Mar,3,Q1,S1
+Scott McKenna, Centre-Back,Nottingham Forest,"Nov 12, 1996",Nov,11,Q4,S2
+Joe Worrall,  Centre-Back,Nottingham Forest,"Jan 10, 1997",Jan,1,Q1,S1
+Willy Boly, Centre-Back,Nottingham Forest,"Feb 3, 1991",Feb,2,Q1,S1
+Steve Cook, Centre-Back,Nottingham Forest,"Apr 19, 1991",Apr,4,Q2,S1
+Loïc Mbe Soh, Centre-Back,Nottingham Forest,"Jun 13, 2001",Jun,6,Q2,S1
+Renan Lodi, Left-Back,Nottingham Forest,"Apr 8, 1998",Apr,4,Q2,S1
+Omar Richards,  Left-Back,Nottingham Forest,"Feb 15, 1998",Feb,2,Q1,S1
+Harry Toffolo, Left-Back,Nottingham Forest,"Aug 19, 1995",Aug,8,Q3,S2
+Neco Williams, Right-Back,Nottingham Forest,"Apr 13, 2001",Apr,4,Q2,S1
+Giulian Biancone,  Right-Back,Nottingham Forest,"Mar 31, 2000",Mar,3,Q1,S1
+Serge Aurier, Right-Back,Nottingham Forest,"Dec 24, 1992",Dec,12,Q4,S2
+Danilo, Defensive Midfield,Nottingham Forest,"Apr 29, 2001",Apr,4,Q2,S1
+Cheikhou Kouyaté,  Defensive Midfield,Nottingham Forest,"Dec 21, 1989",Dec,12,Q4,S2
+Jack Colback, Defensive Midfield,Nottingham Forest,"Oct 24, 1989",Oct,10,Q4,S2
+Remo Freuler, Central Midfield,Nottingham Forest,"Apr 15, 1992",Apr,4,Q2,S1
+Orel Mangala, Central Midfield,Nottingham Forest,"Mar 18, 1998",Mar,3,Q1,S1
+Lewis O'Brien, Central Midfield,Nottingham Forest,"Oct 14, 1998",Oct,10,Q4,S2
+Ryan Yates, Central Midfield,Nottingham Forest,"Nov 21, 1997",Nov,11,Q4,S2
+Cafú, Central Midfield,Nottingham Forest,"Feb 26, 1993",Feb,2,Q1,S1
+Harry Arter, Central Midfield,Nottingham Forest,"Dec 28, 1989",Dec,12,Q4,S2
+Morgan Gibbs-White, Attacking Midfield,Nottingham Forest,"Jan 27, 2000",Jan,1,Q1,S1
+Jesse Lingard,  Attacking Midfield,Nottingham Forest,"Dec 15, 1992",Dec,12,Q4,S2
+Gustavo Scarpa, Attacking Midfield,Nottingham Forest,"Jan 5, 1994",Jan,1,Q1,S1
+Alex Mighten, Left Winger,Nottingham Forest,"Apr 11, 2002",Apr,4,Q2,S1
+Taiwo Awoniyi, Centre-Forward,Nottingham Forest,"Aug 12, 1997",Aug,8,Q3,S2
+Brennan Johnson, Centre-Forward,Nottingham Forest,"May 23, 2001",May,5,Q2,S1
+Emmanuel Dennis, Centre-Forward,Nottingham Forest,"Nov 15, 1997",Nov,11,Q4,S2
+Sam Surridge, Centre-Forward,Nottingham Forest,"Jul 28, 1998",Jul,7,Q3,S2
+Lyle Taylor, Centre-Forward,Nottingham Forest,"Mar 29, 1990",Mar,3,Q1,S1
+Illan Meslier, Goalkeeper,Leeds United,"Mar 2, 2000",Mar,3,Q1,S1
+Kristoffer Klaesson, Goalkeeper,Leeds United,"Nov 27, 2000",Nov,11,Q4,S2
+Joel Robles, Goalkeeper,Leeds United,"Jun 17, 1990",Jun,6,Q2,S1
+Pascal Struijk, Centre-Back,Leeds United,"Aug 11, 1999",Aug,8,Q3,S2
+Robin Koch, Centre-Back,Leeds United,"Jul 17, 1996",Jul,7,Q3,S2
+Diego Llorente, Centre-Back,Leeds United,"Aug 16, 1993",Aug,8,Q3,S2
+Maximilian Wöber, Centre-Back,Leeds United,"Feb 4, 1998",Feb,2,Q1,S1
+Liam Cooper,  Centre-Back,Leeds United,"Aug 30, 1991",Aug,8,Q3,S2
+Junior Firpo, Left-Back,Leeds United,"Aug 22, 1996",Aug,8,Q3,S2
+Rasmus Kristensen, Right-Back,Leeds United,"Jul 11, 1997",Jul,7,Q3,S2
+Cody Drameh, Right-Back,Leeds United,"Dec 8, 2001",Dec,12,Q4,S2
+Luke Ayling, Right-Back,Leeds United,"Aug 25, 1991",Aug,8,Q3,S2
+Stuart Dallas,  Right-Back,Leeds United,"Apr 19, 1991",Apr,4,Q2,S1
+Tyler Adams, Defensive Midfield,Leeds United,"Feb 14, 1999",Feb,2,Q1,S1
+Marc Roca, Defensive Midfield,Leeds United,"Nov 26, 1996",Nov,11,Q4,S2
+Mateusz Klich, Central Midfield,Leeds United,"Jun 13, 1990",Jun,6,Q2,S1
+Adam Forshaw, Central Midfield,Leeds United,"Oct 8, 1991",Oct,10,Q4,S2
+Brenden Aaronson, Attacking Midfield,Leeds United,"Oct 22, 2000",Oct,10,Q4,S2
+Sam Greenwood, Attacking Midfield,Leeds United,"Jan 26, 2002",Jan,1,Q1,S1
+Jack Harrison, Left Winger,Leeds United,"Nov 20, 1996",Nov,11,Q4,S2
+Luis Sinisterra, Left Winger,Leeds United,"Jun 17, 1999",Jun,6,Q2,S1
+Crysencio Summerville, Right Winger,Leeds United,"Oct 30, 2001",Oct,10,Q4,S2
+Wilfried Gnonto, Second Striker,Leeds United,"Nov 5, 2003",Nov,11,Q4,S2
+Rodrigo, Second Striker,Leeds United,"Mar 6, 1991",Mar,3,Q1,S1
+Georginio Rutter, Centre-Forward,Leeds United,"Apr 20, 2002",Apr,4,Q2,S1
+Patrick Bamford, Centre-Forward,Leeds United,"Sep 5, 1993",Sep,9,Q3,S2
+Joe Gelhardt, Centre-Forward,Leeds United,"May 4, 2002",May,5,Q2,S1
+Sam Johnstone, Goalkeeper,Crystal Palace,"Mar 25, 1993",Mar,3,Q1,S1
+Vicente Guaita, Goalkeeper,Crystal Palace,"Jan 10, 1987",Jan,1,Q1,S1
+Marc Guéhi, Centre-Back,Crystal Palace,"Jul 13, 2000",Jul,7,Q3,S2
+Joachim Andersen, Centre-Back,Crystal Palace,"May 31, 1996",May,5,Q2,S1
+Chris Richards, Centre-Back,Crystal Palace,"Mar 28, 2000",Mar,3,Q1,S1
+Nathan Ferguson,  Centre-Back,Crystal Palace,"Oct 6, 2000",Oct,10,Q4,S2
+James Tomkins, Centre-Back,Crystal Palace,"Mar 29, 1989",Mar,3,Q1,S1
+Tyrick Mitchell, Left-Back,Crystal Palace,"Sep 1, 1999",Sep,9,Q3,S2
+Nathaniel Clyne, Right-Back,Crystal Palace,"Apr 5, 1991",Apr,4,Q2,S1
+Joel Ward, Right-Back,Crystal Palace,"Oct 29, 1989",Oct,10,Q4,S2
+Cheick Doucouré, Defensive Midfield,Crystal Palace,"Jan 8, 2000",Jan,1,Q1,S1
+Jairo Riedewald, Defensive Midfield,Crystal Palace,"Sep 9, 1996",Sep,9,Q3,S2
+Luka Milivojevic,  Defensive Midfield,Crystal Palace,"Apr 7, 1991",Apr,4,Q2,S1
+Will Hughes, Central Midfield,Crystal Palace,"Apr 17, 1995",Apr,4,Q2,S1
+James McArthur, Central Midfield,Crystal Palace,"Oct 7, 1987",Oct,10,Q4,S2
+Michael Olise, Right Midfield,Crystal Palace,"Dec 12, 2001",Dec,12,Q4,S2
+Jeffrey Schlupp, Left Midfield,Crystal Palace,"Dec 23, 1992",Dec,12,Q4,S2
+Eberechi Eze, Attacking Midfield,Crystal Palace,"Jun 29, 1998",Jun,6,Q2,S1
+Wilfried Zaha, Left Winger,Crystal Palace,"Nov 10, 1992",Nov,11,Q4,S2
+Malcolm Ebiowei, Right Winger,Crystal Palace,"Sep 4, 2003",Sep,9,Q3,S2
+Odsonne Edouard, Centre-Forward,Crystal Palace,"Jan 16, 1998",Jan,1,Q1,S1
+Jean-Philippe Mateta, Centre-Forward,Crystal Palace,"Jun 28, 1997",Jun,6,Q2,S1
+Jordan Ayew, Centre-Forward,Crystal Palace,"Sep 11, 1991",Sep,9,Q3,S2
+Bernd Leno, Goalkeeper,Fulham FC,"Mar 4, 1992",Mar,3,Q1,S1
+Marek Rodak, Goalkeeper,Fulham FC,"Dec 13, 1996",Dec,12,Q4,S2
+Tosin Adarabioyo, Centre-Back,Fulham FC,"Sep 24, 1997",Sep,9,Q3,S2
+Issa Diop, Centre-Back,Fulham FC,"Jan 9, 1997",Jan,1,Q1,S1
+Shane Duffy, Centre-Back,Fulham FC,"Jan 1, 1992",Jan,1,Q1,S1
+Tim Ream, Centre-Back,Fulham FC,"Oct 5, 1987",Oct,10,Q4,S2
+Antonee Robinson, Left-Back,Fulham FC,"Aug 8, 1997",Aug,8,Q3,S2
+Layvin Kurzawa, Left-Back,Fulham FC,"Sep 4, 1992",Sep,9,Q3,S2
+Kenny Tete, Right-Back,Fulham FC,"Oct 9, 1995",Oct,10,Q4,S2
+Kevin Mbabu, Right-Back,Fulham FC,"Apr 19, 1995",Apr,4,Q2,S1
+João Palhinha, Defensive Midfield,Fulham FC,"Jul 9, 1995",Jul,7,Q3,S2
+Nathaniel Chalobah, Defensive Midfield,Fulham FC,"Dec 12, 1994",Dec,12,Q4,S2
+Harrison Reed, Central Midfield,Fulham FC,"Jan 27, 1995",Jan,1,Q1,S1
+Josh Onomah, Central Midfield,Fulham FC,"Apr 27, 1997",Apr,4,Q2,S1
+Tom Cairney,  Central Midfield,Fulham FC,"Jan 20, 1991",Jan,1,Q1,S1
+Andreas Pereira, Attacking Midfield,Fulham FC,"Jan 1, 1996",Jan,1,Q1,S1
+Bobby De Cordova-Reid, Attacking Midfield,Fulham FC,"Feb 2, 1993",Feb,2,Q1,S1
+Manor Solomon, Left Winger,Fulham FC,"Jul 24, 1999",Jul,7,Q3,S2
+Neeskens Kebano,  Left Winger,Fulham FC,"Mar 10, 1992",Mar,3,Q1,S1
+Harry Wilson, Right Winger,Fulham FC,"Mar 22, 1997",Mar,3,Q1,S1
+Daniel James, Right Winger,Fulham FC,"Nov 10, 1997",Nov,11,Q4,S2
+Willian, Right Winger,Fulham FC,"Aug 9, 1988",Aug,8,Q3,S2
+Aleksandar Mitrović, Centre-Forward,Fulham FC,"Sep 16, 1994",Sep,9,Q3,S2
+Carlos Vinícius, Centre-Forward,Fulham FC,"Mar 25, 1995",Mar,3,Q1,S1
+Neto,  Goalkeeper,AFC Bournemouth,"Jul 19, 1989",Jul,7,Q3,S2
+Mark Travers, Goalkeeper,AFC Bournemouth,"May 18, 1999",May,5,Q2,S1
+Will Dennis, Goalkeeper,AFC Bournemouth,"Jul 10, 2000",Jul,7,Q3,S2
+Marcos Senesi, Centre-Back,AFC Bournemouth,"May 10, 1997",May,5,Q2,S1
+Lloyd Kelly,  Centre-Back,AFC Bournemouth,"Oct 6, 1998",Oct,10,Q4,S2
+Chris Mepham, Centre-Back,AFC Bournemouth,"Nov 5, 1997",Nov,11,Q4,S2
+Jack Stephens, Centre-Back,AFC Bournemouth,"Jan 27, 1994",Jan,1,Q1,S1
+Jordan Zemura, Left-Back,AFC Bournemouth,"Nov 14, 1999",Nov,11,Q4,S2
+Jack Stacey, Right-Back,AFC Bournemouth,"Apr 6, 1996",Apr,4,Q2,S1
+Ryan Fredericks, Right-Back,AFC Bournemouth,"Oct 10, 1992",Oct,10,Q4,S2
+Adam Smith, Right-Back,AFC Bournemouth,"Apr 29, 1991",Apr,4,Q2,S1
+Jefferson Lerma, Defensive Midfield,AFC Bournemouth,"Oct 25, 1994",Oct,10,Q4,S2
+Philip Billing, Central Midfield,AFC Bournemouth,"Jun 11, 1996",Jun,6,Q2,S1
+Marcus Tavernier, Central Midfield,AFC Bournemouth,"Mar 22, 1999",Mar,3,Q1,S1
+Lewis Cook, Central Midfield,AFC Bournemouth,"Feb 3, 1997",Feb,2,Q1,S1
+Joe Rothwell, Central Midfield,AFC Bournemouth,"Jan 11, 1995",Jan,1,Q1,S1
+Ben Pearson, Central Midfield,AFC Bournemouth,"Jan 4, 1995",Jan,1,Q1,S1
+Ryan Christie, Attacking Midfield,AFC Bournemouth,"Feb 22, 1995",Feb,2,Q1,S1
+Jaidon Anthony, Left Winger,AFC Bournemouth,"Dec 1, 1999",Dec,12,Q4,S2
+Siriki Dembélé, Left Winger,AFC Bournemouth,"Sep 7, 1996",Sep,9,Q3,S2
+Junior Stanislas, Left Winger,AFC Bournemouth,"Nov 26, 1989",Nov,11,Q4,S2
+David Brooks,  Right Winger,AFC Bournemouth,"Jul 8, 1997",Jul,7,Q3,S2
+Dominic Solanke, Centre-Forward,AFC Bournemouth,"Sep 14, 1997",Sep,9,Q3,S2
+Kieffer Moore, Centre-Forward,AFC Bournemouth,"Aug 8, 1992",Aug,8,Q3,S2

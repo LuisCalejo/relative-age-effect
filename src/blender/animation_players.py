@@ -3,43 +3,42 @@ DIR = '/Users/luis/Git/relative-age-effect/src/blender/'
 FONT_DIR = '/Users/luis/Library/CloudStorage/GoogleDrive-luis.s.calejo@gmail.com/My Drive/Memeable Data/Fonts/roboto/Roboto-Regular.ttf'
 
 
-# Stage 1: text labels moving; stage 2: players falling; stage 3: players walking; stage 4: players looking up
-STAGE1_START = 10
-STAGE1_END = 130
-STAGE1_PLAYER_Z = 35
-STAGE2_START = 140
+# Stage 1: camera moves (manually); stage 2: start players falling, months appear; stage 3: players start walking; stage 4: players looking up
+RANDOM_SEED = 1
+FPS = 60
+STAGE2_START = 300
+STAGE2_PLAYER_Z = 35  # height from which the players fall
 STAGE2_RANDOM = 5  # randomness interval in frames of players falling
 STAGE2_ROW_INTERVAL = 15 # interval in nr of frames between each row of players falling
 STAGE2_FALL_TIME = 60  # time in frames for players falling
-STAGE3_START = 400
+STAGE2_PLAYER_SPACING_X = 1
+STAGE2_PLAYER_SPACING_Y = 1
+STAGE2_PLAYERS_PER_ROW = 10
+STAGE2_TEAMS_PER_ROW = 4
+STAGE2_TEAM_SPACING_X = 12
+STAGE2_TEAM_SPACING_Y = 7
+STAGE2_TEAM_TEXT_MARGIN = 1.5
+# STAGE2_MONTH_FRAME = 500  # frame where months appear
+STAGE2_MONTH_DISTANCE = -20  # starting distance of month labels from chart
+STAGE2_MONTH_WAIT = 150  # time for months to appear in position (since beginning of stage 2)
+STAGE2_MONTH_DURATION = 120  # duration of month label animation
+STAGE3_START = 760
 STAGE3_RANDOM = 60  # randomness interval in frames until players start walking
-STAGE3_ROTATE_TIME = 15  # time in frames that players take to rotate until target
+STAGE3_ROTATE_SPEED = 3  # rotation speed in degrees/frame for players to rotate until target
 STAGE3_PLAYER_SPEED = 10  # Avg walking speed in meters/second
+STAGE3_TEXT_WAIT = 150 # Waiting time in nr of frames until team labels move away
 STAGE4_START = 1200
-STAGE4_END = 1400
+STAGE4_TEXT_DISTANCE_Y = 70 # Distance in meters that the team labels move away from camera
+STAGE4_CHART_X = 4
+STAGE4_CHART_Y = -15
 STAGE4_RANDOM = 120  # randomness interval in frames until players look up
-RANDOM_SEED = 1
-FPS = 60
-
-
-
-
-STAGE1_TEXT_Y = -30
-
-
-START_MARGIN_HOR = 6
-START_PLAYER_SPACING_HOR = 1
-START_PLAYER_SPACING_VER = 1
-START_PLAYERS_PER_ROW = 10
-START_TEAMS_PER_ROW = 4
-START_TEAM_SPACING_HOR = 12
-START_TEAM_SPACING_VER = 7
-START_TEAM_TEXT_MARGIN = 1.5
-END_PLAYER_SPACING_HOR = 0.75
-END_PLAYER_SPACING_VER = 0.5
-END_PLAYERS_PER_ROW = 3
-END_MONTH_SPACING_HOR = 3
-END_CHART_MARGIN_VER = -1.5
+STATE4_PLAYER_ROTATION_X = -15  # rotation in degrees for players looking up
+STATE4_PLAYER_ROTATION_DURATION = 30  # duration in nr of frames for the players to look up
+STAGE4_PLAYER_SPACING_X = 0.75
+STAGE4_PLAYER_SPACING_Y = 0.5
+STAGE4_PLAYERS_PER_ROW = 3
+STAGE4_MONTH_SPACING_X = 3
+STAGE4_TEXT_MARGIN_Y = -1.5
 
 # This script requires that every team is mapped to an already existing blender model:
 TEAM_BLENDER_OBJECT = {
@@ -97,20 +96,13 @@ if not IS_TEST:
         subprocess.call([python_exe, "-m", "pip", "install", "pandas"])
         subprocess.call([python_exe, "-m", "pip", "install", "math"])
         subprocess.call([python_exe, "-m", "pip", "install", "random"])
+        subprocess.call([python_exe, "-m", "pip", "install", "numpy"])
 
 
     def unselect_all_objects():
         for obj in bpy.context.selected_objects:
             obj.select_set(False)  # deselect all objects
 
-
-    # def insert_and_change_text(coordinates, label, label_name):
-    #     bpy.ops.object.text_add(location=coordinates, enter_editmode=True, name=label_name)
-    #     for k in range(4):
-    #         bpy.ops.font.delete(type='PREVIOUS_OR_SELECTION')
-    #     for char in label:
-    #         bpy.ops.font.text_insert(text=char)
-    #     bpy.ops.object.editmode_toggle()
 
     def insert_and_change_text(coordinates, label, label_name):
         text_data = bpy.data.curves.new(name=label_name, type='FONT')
@@ -163,9 +155,79 @@ if not IS_TEST:
                 # Change the font
                 obj.data.font = bpy.data.fonts.load(font_dir)
 
+    def create_keyframe_position(object, frame, coordinates):
+        unselect_all_objects()
+        bpy.data.objects[object].select_set(True)
+        for obj in bpy.context.selected_objects:
+            obj.location[0] = coordinates[0]
+            obj.location[1] = coordinates[1]
+            obj.location[2] = coordinates[2]
+            obj.keyframe_insert(data_path="location", index=-1, frame=frame)
+
+    def create_keyframe_rotation(object, frame, rotation):
+        unselect_all_objects()
+        bpy.data.objects[object].select_set(True)
+        for obj in bpy.context.selected_objects:
+            obj.rotation_euler[0] = rotation[0]*math.pi/180
+            obj.rotation_euler[1] = rotation[1]*math.pi/180
+            obj.rotation_euler[2] = rotation[2]*math.pi/180
+            obj.keyframe_insert(data_path="rotation_euler", index=-1, frame=frame)
+
+
+    def rotation_until_target(coordinates_from, coordinates_to):
+        vector1 = (0, -1, 0)
+        vector2 = (coordinates_to[0] - coordinates_from[0], coordinates_to[1] - coordinates_from[1], 0)
+        angle = angle_between_vectors(vector1, vector2)
+        if vector1[0]>vector2[0]:
+            angle = -angle
+        return angle
+
+    def unit_vector(vector):
+        """ Returns the unit vector of the vector.  """
+        return vector / np.linalg.norm(vector)
+
+
+    def angle_between_vectors(v1, v2):
+        v1_u = unit_vector(v1)
+        v2_u = unit_vector(v2)
+        angle_radians = np.arccos(np.clip(np.dot(v1_u, v2_u), -1.0, 1.0))
+        angle = angle_radians * (180/math.pi)
+        return angle
+
+    # def angles_between_points(coordinates_from, coordinates_to):
+    #     # Calculate the difference vectors
+    #     dx = coordinates_to[0] - coordinates_from[0]
+    #     dy = coordinates_to[1] - coordinates_from[1]
+    #     dz = coordinates_to[2] - coordinates_from[2]
+    #     # Calculate the angles
+    #     angle_x = math.degrees(math.atan2(dy, dz))
+    #     angle_y = math.degrees(math.atan2(dx, dz))
+    #     angle_z = math.degrees(math.atan2(dy, dx))
+    #     return angle_x, angle_y, angle_z
+
+    def walk_from_to(object, frame_start, coordinates_from, coordinates_to):
+        unselect_all_objects()
+        bpy.data.objects[object].select_set(True)
+        angle = rotation_until_target(coordinates_from, coordinates_to)
+        rotation_time = abs(angle / STAGE3_ROTATE_SPEED)
+        frame_start_walking = frame_start + rotation_time
+        frame_end_walking = frame_start_walking + FPS * calculate_travel_time(coordinates_from, coordinates_to, STAGE3_PLAYER_SPEED)
+        for obj in bpy.context.selected_objects:
+            rotation_start = (obj.rotation_euler[0], obj.rotation_euler[1], obj.rotation_euler[2])
+            rotation_end = (obj.rotation_euler[0], obj.rotation_euler[1], obj.rotation_euler[2] + angle)
+            create_keyframe_rotation(object, frame_start, rotation_start)
+            create_keyframe_rotation(object, frame_start_walking, rotation_end)
+            create_keyframe_position(object, frame_start_walking, coordinates_from)
+            create_keyframe_position(object, frame_end_walking, coordinates_to)
+            create_keyframe_rotation(object, frame_end_walking, rotation_end)
+            create_keyframe_rotation(object, frame_end_walking + rotation_time, rotation_start)
+
+
+
 import pandas as pd
 import math
 import random
+import numpy as np
 
 
 def calculate_travel_time(start, end, speed):
@@ -194,29 +256,36 @@ for index, row in df.iterrows():
 # Find starting positions of players and text labels:
 player_coordinates_stage2 = dict()
 player_coordinates_stage3 = dict()
-team_text_coordinates = dict()
+team_text_coordinates_stage2 = dict()
+team_text_coordinates_stage4 = dict()
 team_row = dict()
 month_text_coordinates = dict()
+month_text_coordinates_start = dict()
 counter_team = 0
 for team in teams:
     counter_team += 1
     counter_player = 0
     
-    row_team = math.floor((counter_team - 1) / START_TEAMS_PER_ROW) + 1
+    row_team = math.floor((counter_team - 1) / STAGE2_TEAMS_PER_ROW) + 1
     team_row[team] = row_team
-    col_team = counter_team - math.floor((counter_team - 1) / START_TEAMS_PER_ROW) * START_TEAMS_PER_ROW
-    team_text_coordinates[team] = ((col_team - 1) * START_TEAM_SPACING_HOR + START_PLAYER_SPACING_HOR,
-                                   (row_team - 1) * START_TEAM_SPACING_VER - START_TEAM_TEXT_MARGIN, 0)
+    col_team = counter_team - math.floor((counter_team - 1) / STAGE2_TEAMS_PER_ROW) * STAGE2_TEAMS_PER_ROW
+    team_text_coordinates_stage2[team] = ((col_team - 1) * STAGE2_TEAM_SPACING_X + STAGE2_PLAYER_SPACING_X,
+                                   (row_team - 1) * STAGE2_TEAM_SPACING_Y - STAGE2_TEAM_TEXT_MARGIN, 0)
+    team_text_coordinates_stage4[team] = (
+        team_text_coordinates_stage2[team][0],
+        team_text_coordinates_stage2[team][1] + STAGE4_TEXT_DISTANCE_Y,
+        team_text_coordinates_stage2[team][2]
+    )
     for player in team_players[team]:
         counter_player += 1
-        row = math.floor((counter_player - 1) / START_PLAYERS_PER_ROW) + 1
-        col = counter_player - math.floor((counter_player - 1) / START_PLAYERS_PER_ROW) * START_PLAYERS_PER_ROW
-        row_team = math.floor((counter_team - 1) / START_TEAMS_PER_ROW) + 1
-        col_team = counter_team - math.floor((counter_team - 1) / START_TEAMS_PER_ROW) * START_TEAMS_PER_ROW
+        row = math.floor((counter_player - 1) / STAGE2_PLAYERS_PER_ROW) + 1
+        col = counter_player - math.floor((counter_player - 1) / STAGE2_PLAYERS_PER_ROW) * STAGE2_PLAYERS_PER_ROW
+        row_team = math.floor((counter_team - 1) / STAGE2_TEAMS_PER_ROW) + 1
+        col_team = counter_team - math.floor((counter_team - 1) / STAGE2_TEAMS_PER_ROW) * STAGE2_TEAMS_PER_ROW
         player_coordinates_stage2[player] = (
-            (col_team - 1) * START_TEAM_SPACING_HOR + col * START_PLAYER_SPACING_HOR,
-            (row_team - 1) * START_TEAM_SPACING_VER + (row - 1) * START_PLAYER_SPACING_VER,
-            STAGE1_PLAYER_Z
+            (col_team - 1) * STAGE2_TEAM_SPACING_X + col * STAGE2_PLAYER_SPACING_X,
+            (row_team - 1) * STAGE2_TEAM_SPACING_Y + (row - 1) * STAGE2_PLAYER_SPACING_Y,
+            STAGE2_PLAYER_Z
         )
         player_coordinates_stage3[player] = (
             player_coordinates_stage2[player][0],
@@ -231,17 +300,17 @@ for month in months:
     counter_month += 1
     counter_player = 0
     month_text_coordinates[month] = (
-        (counter_month - 1) * END_MONTH_SPACING_HOR + END_PLAYER_SPACING_HOR,
-        END_CHART_MARGIN_VER,
+        STAGE4_CHART_X + (counter_month - 1) * STAGE4_MONTH_SPACING_X + STAGE4_PLAYER_SPACING_X,
+        STAGE4_CHART_Y + STAGE4_TEXT_MARGIN_Y,
         0
     )
     for player in month_players[month]:
         counter_player += 1
-        row = math.floor((counter_player - 1) / END_PLAYERS_PER_ROW) + 1
-        col = counter_player - math.floor((counter_player - 1) / END_PLAYERS_PER_ROW) * END_PLAYERS_PER_ROW
+        row = math.floor((counter_player - 1) / STAGE4_PLAYERS_PER_ROW) + 1
+        col = counter_player - math.floor((counter_player - 1) / STAGE4_PLAYERS_PER_ROW) * STAGE4_PLAYERS_PER_ROW
         player_coordinates_stage4[player] = (
-            (counter_month - 1) * END_MONTH_SPACING_HOR + col * END_PLAYER_SPACING_HOR,
-            (row - 1) * END_PLAYER_SPACING_VER,
+            STAGE4_CHART_X + (counter_month - 1) * STAGE4_MONTH_SPACING_X + col * STAGE4_PLAYER_SPACING_X,
+            STAGE4_CHART_Y + (row - 1) * STAGE4_PLAYER_SPACING_Y,
             0
         )
 
@@ -270,45 +339,49 @@ else:
 
     # Generate team text labels:
     for team in teams:
-        insert_and_change_text(team_text_coordinates[team], team, team_label_name[team])
+        insert_and_change_text(team_text_coordinates_stage2[team], team, team_label_name[team])
         mat = newShader("Text Material", "emission", 255, 255, 255)
         bpy.context.active_object.data.materials.append(mat)
+        create_keyframe_position(team_label_name[team], STAGE3_START + STAGE3_TEXT_WAIT, team_text_coordinates_stage2[team])
+        create_keyframe_position(team_label_name[team], STAGE4_START, team_text_coordinates_stage4[team])
 
     # Generate players and chart labels:
     for month in months:
         insert_and_change_text(month_text_coordinates[month], month_label[month], month_label_name[month])
         mat = newShader("Text Material", "emission", 255, 255, 255)
         bpy.context.active_object.data.materials.append(mat)
+        # Create keyframes:
+        month_text_coordinates_start[month] = (
+            month_text_coordinates[month][0],
+            month_text_coordinates[month][1] + STAGE2_MONTH_DISTANCE,
+            month_text_coordinates[month][2]
+        )
+        create_keyframe_position(month_label_name[month], STAGE2_START+STAGE2_MONTH_WAIT, (month_text_coordinates_start[month]))
+        create_keyframe_position(month_label_name[month], STAGE2_START+STAGE2_MONTH_WAIT+STAGE2_MONTH_DURATION, month_text_coordinates[month])
+
         for player in month_players[month]:
-            for obj in bpy.context.selected_objects:
-                obj.select_set(False)  # deselect all objects
+            unselect_all_objects()
             bpy.data.objects[TEAM_BLENDER_OBJECT[player_team[player]]].select_set(True)
             bpy.ops.object.duplicate(linked=False)
             bpy.data.objects[TEAM_BLENDER_OBJECT[player_team[player]]].select_set(False)
             for obj in bpy.context.selected_objects:
                 obj.name = player
-                # Stage 2: Falling
-                obj.location[0] = player_coordinates_stage2[player][0]
-                obj.location[1] = player_coordinates_stage2[player][1]
-                obj.location[2] = player_coordinates_stage2[player][2]
                 frame_start_falling = STAGE2_START + random.randint(0,STAGE2_RANDOM) + team_row[player_team[player]]*STAGE2_ROW_INTERVAL
                 frame_end_falling = frame_start_falling + STAGE2_FALL_TIME
-                obj.keyframe_insert(data_path="location", index=-1, frame=frame_start_falling)
-                obj.location[0] = player_coordinates_stage3[player][0]
-                obj.location[1] = player_coordinates_stage3[player][1]
-                obj.location[2] = player_coordinates_stage3[player][2]
-                obj.keyframe_insert(data_path="location", index=-1, frame=frame_end_falling)
+                create_keyframe_position(player, frame_start_falling, player_coordinates_stage2[player])
+                create_keyframe_position(player, frame_end_falling, player_coordinates_stage3[player])
                 frame_start_spinning = STAGE3_START+random.randint(0, STAGE3_RANDOM)
-                frame_start_walking = frame_start_spinning + STAGE3_ROTATE_TIME
-                frame_end_walking = frame_start_walking + FPS * calculate_travel_time(player_coordinates_stage3[player], player_coordinates_stage4[player], STAGE3_PLAYER_SPEED)
-                obj.keyframe_insert(data_path="location", index=-1, frame=STAGE3_START)
-                obj.keyframe_insert(data_path="location", index=-1, frame=frame_start_walking)
+                walk_from_to(player, frame_start_spinning, player_coordinates_stage3[player], player_coordinates_stage4[player])
+                # frame_start_walking = frame_start_spinning + STAGE3_ROTATE_TIME
+                # frame_end_walking = frame_start_walking + FPS * calculate_travel_time(player_coordinates_stage3[player], player_coordinates_stage4[player], STAGE3_PLAYER_SPEED)
+                # create_keyframe_position(player, frame_start_walking, player_coordinates_stage3[player])
+                # create_keyframe_position(player, frame_end_walking, player_coordinates_stage4[player])
                 # (!!) insert spinning!
-                obj.location[0] = player_coordinates_stage4[player][0]
-                obj.location[1] = player_coordinates_stage4[player][1]
-                obj.keyframe_insert(data_path="location", index=-1, frame=frame_end_walking)
-                # (!!) insert spinning
-    #Update fonts:
+                frame_start_looking_up = STAGE4_START + random.randint(0,STAGE4_RANDOM)
+                frame_end_looking_up = frame_start_looking_up + STATE4_PLAYER_ROTATION_DURATION
+                create_keyframe_rotation(player, frame_start_looking_up, (0,0,0))
+                create_keyframe_rotation(player, frame_end_looking_up, (STATE4_PLAYER_ROTATION_X,0,0))
+
     update_fonts(FONT_DIR)
 
 print("END")

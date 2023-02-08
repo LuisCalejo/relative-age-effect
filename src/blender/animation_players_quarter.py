@@ -29,7 +29,7 @@ STAGE2_TEAM_SPACING_X = 12
 STAGE2_TEAM_SPACING_Y = 7
 STAGE2_TEAM_TEXT_MARGIN = 1.5
 # STAGE2_MONTH_FRAME = 500  # frame where months appear
-STAGE2_MONTH_DISTANCE = -20  # starting distance of month labels from chart
+STAGE2_MONTH_DISTANCE = -20  # starting Y distance of month labels from chart
 STAGE2_MONTH_WAIT = 150  # time for months to appear in position (since beginning of stage 2)
 STAGE2_MONTH_DURATION = 120  # duration of month label animation
 STAGE3_START = 760
@@ -39,39 +39,39 @@ STAGE3_PLAYER_SPEED = 10  # Avg walking speed in meters/second
 STAGE3_TEXT_WAIT = 150  # Waiting time in nr of frames until team labels move away
 STAGE4_START = 1200
 STAGE4_TEXT_DISTANCE_Y = 70  # Distance in meters that the team labels move away from camera
-STAGE4_CHART_X = 4
+STAGE4_CHART_X = 7.5
 STAGE4_CHART_Y = -15
 STAGE4_RANDOM = 120  # randomness interval in frames until players look up
 STATE4_PLAYER_ROTATION_X = -15  # rotation in degrees for players looking up
 STATE4_PLAYER_ROTATION_DURATION = 30  # duration in nr of frames for the players to look up
 STAGE4_PLAYER_SPACING_X = 0.75
-STAGE4_PLAYER_SPACING_Y = 0.5
-STAGE4_PLAYERS_PER_ROW = 3
-STAGE4_MONTH_SPACING_X = 3
+STAGE4_PLAYER_SPACING_Y = 0.6
+STAGE4_PLAYERS_PER_ROW = 6
+STAGE4_MONTH_SPACING_X = 8
 STAGE4_TEXT_MARGIN_Y = -1.5
 
 # This script requires that every team is mapped to an already existing blender model:
 TEAM_BLENDER_OBJECT = {
-    'Real Madrid': '0. Player Real Madrid',
-    'FC Barcelona': '0. Player FC Barcelona',
-    'Atlético de Madrid': '0. Player Atlético de Madrid',
-    'Real Sociedad': '0. Player Real Sociedad',
-    'Villarreal CF': '0. Player Villarreal CF',
-    'Real Betis Balompié': '0. Player Real Betis Balompié',
-    'Valencia CF': '0. Player Valencia CF',
-    'FC Sevilla': '0. Player FC Sevilla',
-    'Athletic Bilbao': '0. Player Athletic Bilbao',
-    'Getafe CF': '0. Player Getafe CF',
-    'Celta de Vigo': '0. Player Celta de Vigo',
-    'CA Osasuna': '0. Player CA Osasuna',
-    'Girona FC': '0. Player Girona FC',
-    'RCD Espanyol Barcelona': '0. Player RCD Espanyol Barcelona',
-    'UD Almería': '0. Player UD Almería',
-    'Rayo Vallecano': '0. Player Rayo Vallecano',
-    'RCD Mallorca': '0. Player RCD Mallorca',
-    'Real Valladolid CF': '0. Player Real Valladolid CF',
-    'Elche CF': '0. Player Elche CF',
-    'Cádiz CF': '0. Player Cádiz CF'
+    'Manchester City': '0. Player Manchester City',
+    'Chelsea FC': '0. Player Chelsea FC',
+    'Liverpool FC': '0. Player Liverpool FC',
+    'Arsenal FC': '0. Player Arsenal FC',
+    'Manchester United': '0. Player Manchester United',
+    'Tottenham Hotspur': '0. Player Tottenham Hotspur',
+    'Aston Villa': '0. Player Aston Villa',
+    'West Ham United': '0. Player West Ham United',
+    'Newcastle United': '0. Player Newcastle United',
+    'Leicester City': '0. Player Leicester City',
+    'Wolverhampton Wanderers': '0. Player Wolverhampton Wanderers',
+    'Everton FC': '0. Player Everton FC',
+    'Brighton & Hove Albion': '0. Player Brighton & Hove Albion',
+    'Southampton FC': '0. Player Southampton FC',
+    'Brentford FC': '0. Player Brentford FC',
+    'Nottingham Forest': '0. Player Nottingham Forest',
+    'Leeds United': '0. Player Leeds United',
+    'Crystal Palace': '0. Player Crystal Palace',
+    'Fulham FC': '0. Player Fulham FC',
+    'AFC Bournemouth': '0. Player AFC Bournemouth'
 }
 
 if not IS_TEST:
@@ -202,19 +202,24 @@ def calculate_travel_time(start, end, speed):
 
 # Process data from CSV file:
 random.seed(RANDOM_SEED)
-df = pd.read_csv(DIR + '../../data/la_liga.csv')
+df = pd.read_csv(DIR + '../../data/premier_league.csv')
 df['player_id'] = df.apply(lambda x: x['name'] + '_' + x['club'], axis=1)
 player_team = dict(zip(df['player_id'], df['club']))
-month_count = df[['month_number', 'player_id']].groupby(['month_number']).count().reset_index()
-month_players = dict(zip(month_count['month_number'], [[] for x in month_count['month_number']]))
-month_label = dict(zip(df['month_number'], df['month']))
-month_label_name = dict(zip(df['month_number'], ['Text Month ' + x for x in df['month']]))
-months = month_players.keys()
+quarter_count = df[['quarter', 'player_id']].groupby(['quarter']).count().reset_index()
+quarter_players = dict(zip(quarter_count['quarter'], [[] for x in quarter_count['quarter']]))
+quarter_label = {
+    1: "Quarter 1\n(Jan, Feb, Mar)",
+    2: "Quarter 2\n(Apr, May, Jun)",
+    3: "Quarter 3\n(Jul, Aug, Sep)",
+    4: "Quarter 4\n(Oct, Nov, Dec)"
+}
+quarter_label_name = dict(zip(df['quarter'], ['Text Quarter ' + str(x) for x in df['quarter']]))
+quarters = quarter_players.keys()
 team_players = dict(zip(df['club'].unique(), [[] for x in df['club'].unique()]))
 team_label_name = dict(zip(df['club'].unique(), ['Text Team ' + x for x in df['club'].unique()]))
 teams = team_players.keys()
 for index, row in df.iterrows():
-    month_players[row['month_number']].append(row['player_id'])
+    quarter_players[row['quarter']].append(row['player_id'])
     team_players[row['club']].append(row['player_id'])
 
 # Find starting positions of players and text labels:
@@ -223,8 +228,8 @@ player_coordinates_stage3 = dict()
 team_text_coordinates_stage2 = dict()
 team_text_coordinates_stage4 = dict()
 team_row = dict()
-month_text_coordinates = dict()
-month_text_coordinates_start = dict()
+quarter_text_coordinates = dict()
+quarter_text_coordinates_start = dict()
 counter_team = 0
 for team in teams:
     counter_team += 1
@@ -259,21 +264,21 @@ for team in teams:
 
 # Find ending positions of players:
 player_coordinates_stage4 = dict()
-counter_month = 0
-for month in months:
-    counter_month += 1
+counter_quarter = 0
+for quarter in quarters:
+    counter_quarter += 1
     counter_player = 0
-    month_text_coordinates[month] = (
-        STAGE4_CHART_X + (counter_month - 1) * STAGE4_MONTH_SPACING_X + STAGE4_PLAYER_SPACING_X,
+    quarter_text_coordinates[quarter] = (
+        STAGE4_CHART_X + (counter_quarter - 1) * STAGE4_MONTH_SPACING_X + STAGE4_PLAYER_SPACING_X,
         STAGE4_CHART_Y + STAGE4_TEXT_MARGIN_Y,
         0
     )
-    for player in month_players[month]:
+    for player in quarter_players[quarter]:
         counter_player += 1
         row = math.floor((counter_player - 1) / STAGE4_PLAYERS_PER_ROW) + 1
         col = counter_player - math.floor((counter_player - 1) / STAGE4_PLAYERS_PER_ROW) * STAGE4_PLAYERS_PER_ROW
         player_coordinates_stage4[player] = (
-            STAGE4_CHART_X + (counter_month - 1) * STAGE4_MONTH_SPACING_X + col * STAGE4_PLAYER_SPACING_X,
+            STAGE4_CHART_X + (counter_quarter - 1) * STAGE4_MONTH_SPACING_X + col * STAGE4_PLAYER_SPACING_X,
             STAGE4_CHART_Y + (row - 1) * STAGE4_PLAYER_SPACING_Y,
             0
         )
@@ -281,10 +286,10 @@ for month in months:
 if IS_TEST:
     import matplotlib.pyplot as plt
 
-    x = [player_coordinates_stage3[x][0] for x in df['player_id']]
-    y = [player_coordinates_stage3[x][1] for x in df['player_id']]
-    # x = [player_coordinates_stage4[x][0] for x in df['player_id']]
-    # y = [player_coordinates_stage4[x][1] for x in df['player_id']]
+    # x = [player_coordinates_stage3[x][0] for x in df['player_id']]
+    # y = [player_coordinates_stage3[x][1] for x in df['player_id']]
+    x = [player_coordinates_stage4[x][0] for x in df['player_id']]
+    y = [player_coordinates_stage4[x][1] for x in df['player_id']]
     plt.scatter(x, y, c="blue")
 else:
     # Delete existing objects:
@@ -297,9 +302,9 @@ else:
         if team_label_name[team] in bpy.data.objects:
             bpy.data.objects[team_label_name[team]].select_set(True)
             bpy.ops.object.delete(use_global=False, confirm=False)
-    for month in months:
-        if month_label_name[month] in bpy.data.objects:
-            bpy.data.objects[month_label_name[month]].select_set(True)
+    for quarter in quarters:
+        if quarter_label_name[quarter] in bpy.data.objects:
+            bpy.data.objects[quarter_label_name[quarter]].select_set(True)
             bpy.ops.object.delete(use_global=False, confirm=False)
 
     # Generate team text labels:
@@ -312,22 +317,22 @@ else:
         create_keyframe_position(team_label_name[team], STAGE4_START, team_text_coordinates_stage4[team])
 
     # Generate players and chart labels:
-    for month in months:
-        insert_and_change_text(month_text_coordinates[month], month_label[month], month_label_name[month])
+    for quarter in quarters:
+        insert_and_change_text(quarter_text_coordinates[quarter], quarter_label[quarter], quarter_label_name[quarter])
         mat = new_shader("Text Material", "emission", 255, 255, 255)
         bpy.context.active_object.data.materials.append(mat)
         # Create keyframes:
-        month_text_coordinates_start[month] = (
-            month_text_coordinates[month][0],
-            month_text_coordinates[month][1] + STAGE2_MONTH_DISTANCE,
-            month_text_coordinates[month][2]
+        quarter_text_coordinates_start[quarter] = (
+            quarter_text_coordinates[quarter][0],
+            quarter_text_coordinates[quarter][1] + STAGE2_MONTH_DISTANCE,
+            quarter_text_coordinates[quarter][2]
         )
-        create_keyframe_position(month_label_name[month], STAGE2_START + STAGE2_MONTH_WAIT,
-                                 (month_text_coordinates_start[month]))
-        create_keyframe_position(month_label_name[month], STAGE2_START + STAGE2_MONTH_WAIT + STAGE2_MONTH_DURATION,
-                                 month_text_coordinates[month])
+        create_keyframe_position(quarter_label_name[quarter], STAGE2_START + STAGE2_MONTH_WAIT,
+                                 (quarter_text_coordinates_start[quarter]))
+        create_keyframe_position(quarter_label_name[quarter], STAGE2_START + STAGE2_MONTH_WAIT + STAGE2_MONTH_DURATION,
+                                 quarter_text_coordinates[quarter])
 
-        for player in month_players[month]:
+        for player in quarter_players[quarter]:
             unselect_all_objects()
             bpy.data.objects[TEAM_BLENDER_OBJECT[player_team[player]]].select_set(True)
             bpy.ops.object.duplicate(linked=False)

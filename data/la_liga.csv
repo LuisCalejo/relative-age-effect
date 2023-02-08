@@ -1,0 +1,492 @@
+name,position,club,birthday_string,month,month_number,quarter,semester
+Thibaut Courtois,,Real Madrid,"May 11, 1992",May,5,Q2,S1
+Andriy Lunin,,Real Madrid,"Feb 11, 1999",Feb,2,Q1,S1
+Éder Militão,,Real Madrid,"Jan 18, 1998",Jan,1,Q1,S1
+David Alaba,,Real Madrid,"Jun 24, 1992",Jun,6,Q2,S1
+Antonio Rüdiger,,Real Madrid,"Mar 3, 1993 ",Mar,3,Q1,S1
+Nacho Fernández,,Real Madrid,"Jan 18, 1990",Jan,1,Q1,S1
+Jesús Vallejo,,Real Madrid,"Jan 5, 1997 ",Jan,1,Q1,S1
+Ferland Mendy,,Real Madrid,"Jun 8, 1995 ",Jun,6,Q2,S1
+Daniel Carvajal,,Real Madrid,"Jan 11, 1992",Jan,1,Q1,S1
+Lucas Vázquez,,Real Madrid,"Jul 1, 1991 ",Jul,7,Q3,S2
+Álvaro Odriozola,,Real Madrid,"Dec 14, 1995",Dec,12,Q4,S2
+Aurélien Tchouameni,,Real Madrid,"Jan 27, 2000",Jan,1,Q1,S1
+Federico Valverde,,Real Madrid,"Jul 22, 1998",Jul,7,Q3,S2
+Eduardo Camavinga,,Real Madrid,"Nov 10, 2002",Nov,11,Q4,S2
+Toni Kroos,,Real Madrid,"Jan 4, 1990 ",Jan,1,Q1,S1
+Luka Modric,,Real Madrid,"Sep 9, 1985 ",Sep,9,Q3,S2
+Dani Ceballos,,Real Madrid,"Aug 7, 1996 ",Aug,8,Q3,S2
+Vinicius Junior,,Real Madrid,"Jul 12, 2000",Jul,7,Q3,S2
+Eden Hazard,,Real Madrid,"Jan 7, 1991 ",Jan,1,Q1,S1
+Rodrygo,,Real Madrid,"Jan 9, 2001 ",Jan,1,Q1,S1
+Marco Asensio,,Real Madrid,"Jan 21, 1996",Jan,1,Q1,S1
+Karim Benzema,,Real Madrid,"Dec 19, 1987",Dec,12,Q4,S2
+Mariano Díaz,,Real Madrid,"Aug 1, 1993 ",Aug,8,Q3,S2
+Marc-André ter Stegen,,FC Barcelona,"Apr 30, 1992",Apr,4,Q2,S1
+Iñaki Peña,,FC Barcelona,"Mar 2, 1999 ",Mar,3,Q1,S1
+Arnau Tenas,,FC Barcelona,"May 30, 2001",May,5,Q2,S1
+Ronald Araújo,,FC Barcelona,"Mar 7, 1999 ",Mar,3,Q1,S1
+Jules Kounde,,FC Barcelona,"Nov 12, 1998",Nov,11,Q4,S2
+Andreas Christensen,,FC Barcelona,"Apr 10, 1996",Apr,4,Q2,S1
+Eric García,,FC Barcelona,"Jan 9, 2001 ",Jan,1,Q1,S1
+Alejandro Balde,,FC Barcelona,"Oct 18, 2003",Oct,10,Q4,S2
+Marcos Alonso,,FC Barcelona,"Dec 28, 1990",Dec,12,Q4,S2
+Jordi Alba,,FC Barcelona,"Mar 21, 1989",Mar,3,Q1,S1
+Sergi Roberto,,FC Barcelona,"Feb 7, 1992 ",Feb,2,Q1,S1
+Sergio Busquets,,FC Barcelona,"Jul 16, 1988",Jul,7,Q3,S2
+Pedri,,FC Barcelona,"Nov 25, 2002",Nov,11,Q4,S2
+Gavi,,FC Barcelona,"Aug 5, 2004 ",Aug,8,Q3,S2
+Frenkie de Jong,,FC Barcelona,"May 12, 1997",May,5,Q2,S1
+Franck Kessié,,FC Barcelona,"Dec 19, 1996",Dec,12,Q4,S2
+Pablo Torre,,FC Barcelona,"Apr 3, 2003 ",Apr,4,Q2,S1
+Ansu Fati,,FC Barcelona,"Oct 31, 2002",Oct,10,Q4,S2
+Ferran Torres,,FC Barcelona,"Feb 29, 2000",Feb,2,Q1,S1
+Ousmane Dembélé,,FC Barcelona,"May 15, 1997",May,5,Q2,S1
+Raphinha,,FC Barcelona,"Dec 14, 1996",Dec,12,Q4,S2
+Robert Lewandowski,,FC Barcelona,"Aug 21, 1988",Aug,8,Q3,S2
+Jan Oblak,,Atlético de Madrid,"Jan 7, 1993 ",Jan,1,Q1,S1
+Ivo Grbic,,Atlético de Madrid,"Jan 18, 1996",Jan,1,Q1,S1
+José María Giménez,,Atlético de Madrid,"Jan 20, 1995",Jan,1,Q1,S1
+Mario Hermoso,,Atlético de Madrid,"Jun 18, 1995",Jun,6,Q2,S1
+Stefan Savic,,Atlético de Madrid,"Jan 8, 1991 ",Jan,1,Q1,S1
+Reinildo Mandava,,Atlético de Madrid,"Jan 21, 1994",Jan,1,Q1,S1
+Sergio Reguilón,,Atlético de Madrid,"Dec 16, 1996",Dec,12,Q4,S2
+Nahuel Molina,,Atlético de Madrid,"Apr 6, 1998 ",Apr,4,Q2,S1
+Matt Doherty,,Atlético de Madrid,"Jan 16, 1992",Jan,1,Q1,S1
+Geoffrey Kondogbia,,Atlético de Madrid,"Feb 15, 1993",Feb,2,Q1,S1
+Axel Witsel,,Atlético de Madrid,"Jan 12, 1989",Jan,1,Q1,S1
+Rodrigo de Paul,,Atlético de Madrid,"May 24, 1994",May,5,Q2,S1
+Marcos Llorente,,Atlético de Madrid,"Jan 30, 1995",Jan,1,Q1,S1
+Koke,,Atlético de Madrid,"Jan 8, 1992 ",Jan,1,Q1,S1
+Saúl Ñíguez,,Atlético de Madrid,"Nov 21, 1994",Nov,11,Q4,S2
+Pablo Barrios,,Atlético de Madrid,"Jun 15, 2003",Jun,6,Q2,S1
+Thomas Lemar,,Atlético de Madrid,"Nov 12, 1995",Nov,11,Q4,S2
+Yannick Carrasco,,Atlético de Madrid,"Sep 4, 1993 ",Sep,9,Q3,S2
+Ángel Correa,,Atlético de Madrid,"Mar 9, 1995 ",Mar,3,Q1,S1
+Antoine Griezmann,,Atlético de Madrid,"Mar 21, 1991",Mar,3,Q1,S1
+Álvaro Morata,,Atlético de Madrid,"Oct 23, 1992",Oct,10,Q4,S2
+Memphis Depay,,Atlético de Madrid,"Feb 13, 1994",Feb,2,Q1,S1
+Álex Remiro,,Real Sociedad,"Mar 24, 1995",Mar,3,Q1,S1
+Andoni Zubiaurre,,Real Sociedad,"Dec 4, 1996 ",Dec,12,Q4,S2
+Robin Le Normand,,Real Sociedad,"Nov 11, 1996",Nov,11,Q4,S2
+Igor Zubeldia,,Real Sociedad,"Mar 30, 1997",Mar,3,Q1,S1
+Aritz Elustondo,,Real Sociedad,"Mar 28, 1994",Mar,3,Q1,S1
+Jon Pacheco,,Real Sociedad,"Jan 8, 2001 ",Jan,1,Q1,S1
+Aihen Muñoz,,Real Sociedad,"Aug 16, 1997",Aug,8,Q3,S2
+Diego Rico,,Real Sociedad,"Feb 23, 1993",Feb,2,Q1,S1
+Andoni Gorosabel,,Real Sociedad,"Aug 4, 1996 ",Aug,8,Q3,S2
+Álex Sola,,Real Sociedad,"Jun 9, 1999 ",Jun,6,Q2,S1
+Martín Zubimendi,,Real Sociedad,"Feb 2, 1999 ",Feb,2,Q1,S1
+Asier Illarramendi,,Real Sociedad,"Mar 8, 1990 ",Mar,3,Q1,S1
+Mikel Merino,,Real Sociedad,"Jun 22, 1996",Jun,6,Q2,S1
+Ander Guevara,,Real Sociedad,"Jul 7, 1997 ",Jul,7,Q3,S2
+Beñat Turrientes,,Real Sociedad,"Jan 31, 2002",Jan,1,Q1,S1
+Brais Méndez,,Real Sociedad,"Jan 7, 1997 ",Jan,1,Q1,S1
+Robert Navarro,,Real Sociedad,"Apr 12, 2002",Apr,4,Q2,S1
+David Silva,,Real Sociedad,"Jan 8, 1986 ",Jan,1,Q1,S1
+Mikel Oyarzabal,,Real Sociedad,"Apr 21, 1997",Apr,4,Q2,S1
+Ander Barrenetxea,,Real Sociedad,"Dec 27, 2001",Dec,12,Q4,S2
+Martín Merquelanz,,Real Sociedad,"Jun 12, 1995",Jun,6,Q2,S1
+Takefusa Kubo,,Real Sociedad,"Jun 4, 2001 ",Jun,6,Q2,S1
+Umar Sadiq,,Real Sociedad,"Feb 2, 1997 ",Feb,2,Q1,S1
+Momo Cho,,Real Sociedad,"Jan 19, 2004",Jan,1,Q1,S1
+Alexander Sörloth,,Real Sociedad,"Dec 5, 1995 ",Dec,12,Q4,S2
+Carlos Fernández,,Real Sociedad,"May 22, 1996",May,5,Q2,S1
+Filip Jörgensen,,Villarreal CF,"Apr 16, 2002",Apr,4,Q2,S1
+Pepe Reina,,Villarreal CF,"Aug 31, 1982",Aug,8,Q3,S2
+Pau Torres,,Villarreal CF,"Jan 16, 1997",Jan,1,Q1,S1
+Jorge Cuenca,,Villarreal CF,"Nov 17, 1999",Nov,11,Q4,S2
+Aïssa Mandi,,Villarreal CF,"Oct 22, 1991",Oct,10,Q4,S2
+Raúl Albiol,,Villarreal CF,"Sep 4, 1985 ",Sep,9,Q3,S2
+Alfonso Pedraza,,Villarreal CF,"Apr 9, 1996 ",Apr,4,Q2,S1
+Johan Mojica,,Villarreal CF,"Aug 21, 1992",Aug,8,Q3,S2
+Alberto Moreno,,Villarreal CF,"Jul 5, 1992 ",Jul,7,Q3,S2
+Juan Foyth,,Villarreal CF,"Jan 12, 1998",Jan,1,Q1,S1
+Kiko Femenía,,Villarreal CF,"Feb 2, 1991 ",Feb,2,Q1,S1
+Francis Coquelin,,Villarreal CF,"May 13, 1991",May,5,Q2,S1
+Étienne Capoue,,Villarreal CF,"Jul 11, 1988",Jul,7,Q3,S2
+Giovani Lo Celso,,Villarreal CF,"Apr 9, 1996 ",Apr,4,Q2,S1
+Dani Parejo,,Villarreal CF,"Apr 16, 1989",Apr,4,Q2,S1
+Manu Trigueros,,Villarreal CF,"Oct 17, 1991",Oct,10,Q4,S2
+Álex Baena,,Villarreal CF,"Jul 20, 2001",Jul,7,Q3,S2
+Yéremy Pino,,Villarreal CF,"Oct 20, 2002",Oct,10,Q4,S2
+Samuel Chukwueze,,Villarreal CF,"May 22, 1999",May,5,Q2,S1
+Gerard Moreno,,Villarreal CF,"Apr 7, 1992 ",Apr,4,Q2,S1
+Nicolas Jackson,,Villarreal CF,"Jun 20, 2001",Jun,6,Q2,S1
+José Luis Morales,,Villarreal CF,"Jul 23, 1987",Jul,7,Q3,S2
+Rui Silva,,Real Betis Balompié,"Feb 7, 1994 ",Feb,2,Q1,S1
+Dani Martín,,Real Betis Balompié,"Jul 8, 1998 ",Jul,7,Q3,S2
+Claudio Bravo,,Real Betis Balompié,"Apr 13, 1983",Apr,4,Q2,S1
+Luiz Felipe,,Real Betis Balompié,"Mar 22, 1997",Mar,3,Q1,S1
+Edgar González,,Real Betis Balompié,"Apr 1, 1997 ",Apr,4,Q2,S1
+Germán Pezzella,,Real Betis Balompié,"Jun 27, 1991",Jun,6,Q2,S1
+Víctor Ruiz,,Real Betis Balompié,"Jan 25, 1989",Jan,1,Q1,S1
+Abner,,Real Betis Balompié,"May 27, 2000",May,5,Q2,S1
+Juan Miranda,,Real Betis Balompié,"Jan 19, 2000",Jan,1,Q1,S1
+Aitor Ruibal,,Real Betis Balompié,"Mar 22, 1996",Mar,3,Q1,S1
+Youssouf Sabaly,,Real Betis Balompié,"Mar 5, 1993 ",Mar,3,Q1,S1
+Martín Montoya,,Real Betis Balompié,"Apr 14, 1991",Apr,4,Q2,S1
+Guido Rodríguez,,Real Betis Balompié,"Apr 12, 1994",Apr,4,Q2,S1
+William Carvalho,,Real Betis Balompié,"Apr 7, 1992 ",Apr,4,Q2,S1
+Paul Akouokou,,Real Betis Balompié,"Dec 20, 1997",Dec,12,Q4,S2
+Andrés Guardado,,Real Betis Balompié,"Sep 28, 1986",Sep,9,Q3,S2
+Nabil Fekir,,Real Betis Balompié,"Jul 18, 1993",Jul,7,Q3,S2
+Sergio Canales,,Real Betis Balompié,"Feb 16, 1991",Feb,2,Q1,S1
+Juanmi,,Real Betis Balompié,"May 20, 1993",May,5,Q2,S1
+Rodri Sánchez,,Real Betis Balompié,"Feb 16, 2000",Feb,2,Q1,S1
+Luiz Henrique,,Real Betis Balompié,"Jan 2, 2001 ",Jan,1,Q1,S1
+Juan Cruz,,Real Betis Balompié,"Apr 25, 2000",Apr,4,Q2,S1
+Joaquín,,Real Betis Balompié,"Jul 21, 1981",Jul,7,Q3,S2
+Ayoze Pérez,,Real Betis Balompié,"Jul 29, 1993",Jul,7,Q3,S2
+Borja Iglesias,,Real Betis Balompié,"Jan 17, 1993",Jan,1,Q1,S1
+Willian José,,Real Betis Balompié,"Nov 23, 1991",Nov,11,Q4,S2
+Giorgi Mamardashvili,,Valencia CF,"Sep 29, 2000",Sep,9,Q3,S2
+Jaume Doménech,,Valencia CF,"Nov 5, 1990 ",Nov,11,Q4,S2
+Iago Herrerín,,Valencia CF,"Jan 25, 1988",Jan,1,Q1,S1
+Cristian Rivero,,Valencia CF,"Mar 21, 1998",Mar,3,Q1,S1
+Mouctar Diakhaby,,Valencia CF,"Dec 19, 1996",Dec,12,Q4,S2
+Gabriel Paulista,,Valencia CF,"Nov 26, 1990",Nov,11,Q4,S2
+Eray Cömert,,Valencia CF,"Feb 4, 1998 ",Feb,2,Q1,S1
+Cenk Özkacar,,Valencia CF,"Oct 6, 2000 ",Oct,10,Q4,S2
+Cristhian Mosquera,,Valencia CF,"Jun 27, 2004",Jun,6,Q2,S1
+José Gayà,,Valencia CF,"May 25, 1995",May,5,Q2,S1
+Jesús Vázquez,,Valencia CF,"Jan 2, 2003 ",Jan,1,Q1,S1
+Toni Lato,,Valencia CF,"Nov 21, 1997",Nov,11,Q4,S2
+Thierry Correia,,Valencia CF,"Mar 9, 1999 ",Mar,3,Q1,S1
+Dimitri Foulquier,,Valencia CF,"Mar 23, 1993",Mar,3,Q1,S1
+Hugo Guillamón,,Valencia CF,"Jan 31, 2000",Jan,1,Q1,S1
+Yunus Musah,,Valencia CF,"Nov 29, 2002",Nov,11,Q4,S2
+Nico González,,Valencia CF,"Jan 3, 2002 ",Jan,1,Q1,S1
+André Almeida,,Valencia CF,"May 30, 2000",May,5,Q2,S1
+Ilaix Moriba,,Valencia CF,"Jan 19, 2003",Jan,1,Q1,S1
+Samuel Lino,,Valencia CF,"Dec 23, 1999",Dec,12,Q4,S2
+Justin Kluivert,,Valencia CF,"May 5, 1999 ",May,5,Q2,S1
+Samu Castillejo,,Valencia CF,"Jan 18, 1995",Jan,1,Q1,S1
+Hugo Duro,,Valencia CF,"Nov 10, 1999",Nov,11,Q4,S2
+Edinson Cavani,,Valencia CF,"Feb 14, 1987",Feb,2,Q1,S1
+Marcos André,,Valencia CF,"Oct 20, 1996",Oct,10,Q4,S2
+Bono,,FC Sevilla,"Apr 5, 1991 ",Apr,4,Q2,S1
+Marko Dmitrović,,FC Sevilla,"Jan 24, 1992",Jan,1,Q1,S1
+Marcão,,FC Sevilla,"Jun 5, 1996 ",Jun,6,Q2,S1
+Loïc Badé,,FC Sevilla,"Apr 11, 2000",Apr,4,Q2,S1
+Tanguy Nianzou,,FC Sevilla,"Jun 7, 2002 ",Jun,6,Q2,S1
+Karim Rekik,,FC Sevilla,"Dec 2, 1994 ",Dec,12,Q4,S2
+Alex Telles,,FC Sevilla,"Dec 15, 1992",Dec,12,Q4,S2
+Marcos Acuña,,FC Sevilla,"Oct 28, 1991",Oct,10,Q4,S2
+Gonzalo Montiel,,FC Sevilla,"Jan 1, 1997 ",Jan,1,Q1,S1
+Jesús Navas,,FC Sevilla,"Nov 21, 1985",Nov,11,Q4,S2
+Pape Gueye,,FC Sevilla,"Jan 24, 1999",Jan,1,Q1,S1
+Nemanja Gudelj,,FC Sevilla,"Nov 16, 1991",Nov,11,Q4,S2
+Fernando,,FC Sevilla,"Jul 25, 1987",Jul,7,Q3,S2
+Joan Jordán,,FC Sevilla,"Jul 6, 1994 ",Jul,7,Q3,S2
+Óliver Torres,,FC Sevilla,"Nov 10, 1994",Nov,11,Q4,S2
+Ivan Rakitic,,FC Sevilla,"Mar 10, 1988",Mar,3,Q1,S1
+Lucas Ocampos,,FC Sevilla,"Jul 11, 1994",Jul,7,Q3,S2
+Bryan Gil,,FC Sevilla,"Feb 11, 2001",Feb,2,Q1,S1
+Papu Gómez,,FC Sevilla,"Feb 15, 1988",Feb,2,Q1,S1
+Tecatito,,FC Sevilla,"Jan 6, 1993 ",Jan,1,Q1,S1
+Erik Lamela,,FC Sevilla,"Mar 4, 1992 ",Mar,3,Q1,S1
+Suso,,FC Sevilla,"Nov 19, 1993",Nov,11,Q4,S2
+Youssef En-Nesyri,,FC Sevilla,"Jun 1, 1997 ",Jun,6,Q2,S1
+Rafa Mir,,FC Sevilla,"Jun 18, 1997",Jun,6,Q2,S1
+Unai Simón,,Athletic Bilbao,"Jun 11, 1997",Jun,6,Q2,S1
+Julen Agirrezabala,,Athletic Bilbao,"Dec 26, 2000",Dec,12,Q4,S2
+Ander Iru,,Athletic Bilbao,"Aug 22, 1998",Aug,8,Q3,S2
+Iñigo Martínez,,Athletic Bilbao,"May 17, 1991",May,5,Q2,S1
+Yeray Álvarez,,Athletic Bilbao,"Jan 24, 1995",Jan,1,Q1,S1
+Dani Vivian,,Athletic Bilbao,"Jul 5, 1999 ",Jul,7,Q3,S2
+Aitor Paredes,,Athletic Bilbao,"Apr 29, 2000",Apr,4,Q2,S1
+Yuri Berchiche,,Athletic Bilbao,"Feb 10, 1990",Feb,2,Q1,S1
+Mikel Balenziaga,,Athletic Bilbao,"Feb 29, 1988",Feb,2,Q1,S1
+Iñigo Lekue,,Athletic Bilbao,"May 4, 1993 ",May,5,Q2,S1
+Ander Capa,,Athletic Bilbao,"Feb 8, 1992 ",Feb,2,Q1,S1
+Óscar de Marcos,,Athletic Bilbao,"Apr 14, 1989",Apr,4,Q2,S1
+Mikel Vesga,,Athletic Bilbao,"Apr 8, 1993 ",Apr,4,Q2,S1
+Unai Vencedor,,Athletic Bilbao,"Nov 15, 2000",Nov,11,Q4,S2
+Ander Herrera,,Athletic Bilbao,"Aug 14, 1989",Aug,8,Q3,S2
+Oier Zarraga,,Athletic Bilbao,"Jan 4, 1999 ",Jan,1,Q1,S1
+Dani García,,Athletic Bilbao,"May 24, 1990",May,5,Q2,S1
+Oihan Sancet,,Athletic Bilbao,"Apr 25, 2000",Apr,4,Q2,S1
+Iker Muniain,,Athletic Bilbao,"Dec 19, 1992",Dec,12,Q4,S2
+Álex Berenguer,,Athletic Bilbao,"Jul 4, 1995 ",Jul,7,Q3,S2
+Jon Morcillo,,Athletic Bilbao,"Sep 15, 1998",Sep,9,Q3,S2
+Nico Williams,,Athletic Bilbao,"Jul 12, 2002",Jul,7,Q3,S2
+Iñaki Williams,,Athletic Bilbao,"Jun 15, 1994",Jun,6,Q2,S1
+Raúl García,,Athletic Bilbao,"Jul 11, 1986",Jul,7,Q3,S2
+Gorka Guruzeta,,Athletic Bilbao,"Sep 12, 1996",Sep,9,Q3,S2
+David Soria,,Getafe CF,"Apr 4, 1993 ",Apr,4,Q2,S1
+Kiko Casilla,,Getafe CF,"Oct 2, 1986 ",Oct,10,Q4,S2
+Diego Conde,,Getafe CF,"Oct 28, 1998",Oct,10,Q4,S2
+Domingos Duarte,,Getafe CF,"Mar 10, 1995",Mar,3,Q1,S1
+Djené,,Getafe CF,"Dec 31, 1991",Dec,12,Q4,S2
+Gastón Álvarez,,Getafe CF,"Mar 24, 2000",Mar,3,Q1,S1
+Omar Alderete,,Getafe CF,"Dec 26, 1996",Dec,12,Q4,S2
+Stefan Mitrović,,Getafe CF,"May 22, 1990",May,5,Q2,S1
+Fabrizio Angileri,,Getafe CF,"Mar 15, 1994",Mar,3,Q1,S1
+Jordan Amavi,,Getafe CF,"Mar 9, 1994 ",Mar,3,Q1,S1
+Juan Iglesias,,Getafe CF,"Jul 3, 1998 ",Jul,7,Q3,S2
+Damián Suárez,,Getafe CF,"Apr 27, 1988",Apr,4,Q2,S1
+Ángel Algobia,,Getafe CF,"Jun 23, 1999",Jun,6,Q2,S1
+Mauro Arambarri,,Getafe CF,"Sep 30, 1995",Sep,9,Q3,S2
+Carles Aleñá,,Getafe CF,"Jan 5, 1998 ",Jan,1,Q1,S1
+Nemanja Maksimović,,Getafe CF,"Jan 26, 1995",Jan,1,Q1,S1
+Luis Milla,,Getafe CF,"Oct 7, 1994 ",Oct,10,Q4,S2
+Gonzalo Villar,,Getafe CF,"Mar 23, 1998",Mar,3,Q1,S1
+Jaime Seoane,,Getafe CF,"Jan 22, 1997",Jan,1,Q1,S1
+Portu,,Getafe CF,"May 21, 1992",May,5,Q2,S1
+Enes Ünal,,Getafe CF,"May 10, 1997",May,5,Q2,S1
+Borja Mayoral,,Getafe CF,"Apr 5, 1997 ",Apr,4,Q2,S1
+Munir El Haddadi,,Getafe CF,"Sep 1, 1995 ",Sep,9,Q3,S2
+Jaime Mata,,Getafe CF,"Oct 24, 1988",Oct,10,Q4,S2
+Juanmi Latasa,,Getafe CF,"Mar 23, 2001",Mar,3,Q1,S1
+Agustín Marchesín,,Celta de Vigo,"Mar 16, 1988",Mar,3,Q1,S1
+Iván Villar,,Celta de Vigo,"Jul 9, 1997 ",Jul,7,Q3,S2
+Joseph Aidoo,,Celta de Vigo,"Sep 29, 1995",Sep,9,Q3,S2
+Unai Núñez,,Celta de Vigo,"Jan 30, 1997",Jan,1,Q1,S1
+Óscar Mingueza,,Celta de Vigo,"May 13, 1999",May,5,Q2,S1
+Carlos Domínguez,,Celta de Vigo,"Feb 11, 2001",Feb,2,Q1,S1
+Javi Galán,,Celta de Vigo,"Nov 19, 1994",Nov,11,Q4,S2
+Hugo Mallo,,Celta de Vigo,"Jun 22, 1991",Jun,6,Q2,S1
+Kevin Vázquez,,Celta de Vigo,"Mar 23, 1993",Mar,3,Q1,S1
+Renato Tapia,,Celta de Vigo,"Jul 28, 1995",Jul,7,Q3,S2
+Fran Beltrán,,Celta de Vigo,"Feb 3, 1999 ",Feb,2,Q1,S1
+Luca de la Torre,,Celta de Vigo,"May 23, 1998",May,5,Q2,S1
+Óscar Rodríguez,,Celta de Vigo,"Jun 28, 1998",Jun,6,Q2,S1
+Gabri Veiga,,Celta de Vigo,"May 27, 2002",May,5,Q2,S1
+Williot Swedberg,,Celta de Vigo,"Feb 1, 2004 ",Feb,2,Q1,S1
+Franco Cervi,,Celta de Vigo,"May 26, 1994",May,5,Q2,S1
+Carles Pérez,,Celta de Vigo,"Feb 16, 1998",Feb,2,Q1,S1
+Augusto Solari,,Celta de Vigo,"Jan 3, 1992 ",Jan,1,Q1,S1
+Jörgen Strand Larsen,,Celta de Vigo,"Feb 6, 2000 ",Feb,2,Q1,S1
+Iago Aspas,,Celta de Vigo,"Aug 1, 1987 ",Aug,8,Q3,S2
+Haris Seferovic,,Celta de Vigo,"Feb 22, 1992",Feb,2,Q1,S1
+Gonçalo Paciência,,Celta de Vigo,"Aug 1, 1994 ",Aug,8,Q3,S2
+Sergio Herrera,,CA Osasuna,"Jun 5, 1993 ",Jun,6,Q2,S1
+Aitor Fernández,,CA Osasuna,"May 3, 1991 ",May,5,Q2,S1
+David García,,CA Osasuna,"Feb 14, 1994",Feb,2,Q1,S1
+Unai García,,CA Osasuna,"Feb 3, 1992 ",Feb,2,Q1,S1
+Aridane Hernández,,CA Osasuna,"Mar 23, 1989",Mar,3,Q1,S1
+Manu Sánchez,,CA Osasuna,"Aug 24, 2000",Aug,8,Q3,S2
+Juan Cruz,,CA Osasuna,"Jul 28, 1992",Jul,7,Q3,S2
+Nacho Vidal,,CA Osasuna,"Jan 24, 1995",Jan,1,Q1,S1
+Rubén Peña,,CA Osasuna,"Jul 18, 1991",Jul,7,Q3,S2
+Lucas Torró,,CA Osasuna,"Jul 19, 1994",Jul,7,Q3,S2
+Jon Moncayola,,CA Osasuna,"May 13, 1998",May,5,Q2,S1
+Darko Brasanac,,CA Osasuna,"Feb 12, 1992",Feb,2,Q1,S1
+Pablo Ibáñez,,CA Osasuna,"Sep 20, 1998",Sep,9,Q3,S2
+Aimar Oroz,,CA Osasuna,"Nov 27, 2001",Nov,11,Q4,S2
+Abde Ezzalzouli,,CA Osasuna,"Dec 17, 2001",Dec,12,Q4,S2
+Moi Gómez,,CA Osasuna,"Jun 23, 1994",Jun,6,Q2,S1
+Rubén García,,CA Osasuna,"Jul 14, 1993",Jul,7,Q3,S2
+Kike Barja,,CA Osasuna,"Apr 1, 1997 ",Apr,4,Q2,S1
+Chimy Ávila,,CA Osasuna,"Feb 6, 1994 ",Feb,2,Q1,S1
+Ante Budimir,,CA Osasuna,"Jul 22, 1991",Jul,7,Q3,S2
+Kike García,,CA Osasuna,"Nov 25, 1989",Nov,11,Q4,S2
+Paulo Gazzaniga,,Girona FC,"Jan 2, 1992 ",Jan,1,Q1,S1
+Juan Carlos,,Girona FC,"Jan 20, 1988",Jan,1,Q1,S1
+Toni Fuidias,,Girona FC,"Apr 15, 2001",Apr,4,Q2,S1
+Santiago Bueno,,Girona FC,"Nov 9, 1998 ",Nov,11,Q4,S2
+David López,,Girona FC,"Oct 9, 1989 ",Oct,10,Q4,S2
+Alexander Callens,,Girona FC,"May 4, 1992 ",May,5,Q2,S1
+Bernardo Espinosa,,Girona FC,"Jul 11, 1989",Jul,7,Q3,S2
+Juanpe,,Girona FC,"Apr 30, 1991",Apr,4,Q2,S1
+Miguel Gutiérrez,,Girona FC,"Jul 27, 2001",Jul,7,Q3,S2
+Javi Hernández,,Girona FC,"May 2, 1998 ",May,5,Q2,S1
+Arnau Martínez,,Girona FC,"Apr 25, 2003",Apr,4,Q2,S1
+Yan Couto,,Girona FC,"Jun 3, 2002 ",Jun,6,Q2,S1
+Oriol Romeu,,Girona FC,"Sep 24, 1991",Sep,9,Q3,S2
+Ibrahima Kébé,,Girona FC,"Aug 1, 2000 ",Aug,8,Q3,S2
+Yangel Herrera,,Girona FC,"Jan 7, 1998 ",Jan,1,Q1,S1
+Aleix García,,Girona FC,"Jun 28, 1997",Jun,6,Q2,S1
+Reinier,,Girona FC,"Jan 19, 2002",Jan,1,Q1,S1
+Iván Martín,,Girona FC,"Feb 14, 1999",Feb,2,Q1,S1
+Borja García,,Girona FC,"Nov 2, 1990 ",Nov,11,Q4,S2
+Toni Villa,,Girona FC,"Jan 7, 1995 ",Jan,1,Q1,S1
+Viktor Tsygankov,,Girona FC,"Nov 15, 1997",Nov,11,Q4,S2
+Rodrigo Riquelme,,Girona FC,"Apr 2, 2000 ",Apr,4,Q2,S1
+Valery Fernández,,Girona FC,"Nov 23, 1999",Nov,11,Q4,S2
+Taty Castellanos,,Girona FC,"Oct 3, 1998 ",Oct,10,Q4,S2
+Cristhian Stuani,,Girona FC,"Oct 12, 1986",Oct,10,Q4,S2
+Fernando Pacheco,,RCD Espanyol Barcelona,"May 18, 1992",May,5,Q2,S1
+Álvaro Fernández,,RCD Espanyol Barcelona,"Apr 13, 1998",Apr,4,Q2,S1
+Joan García,,RCD Espanyol Barcelona,"May 4, 2001 ",May,5,Q2,S1
+César Montes,,RCD Espanyol Barcelona,"Feb 24, 1997",Feb,2,Q1,S1
+Leandro Cabrera,,RCD Espanyol Barcelona,"Jun 17, 1991",Jun,6,Q2,S1
+Fernando Calero,,RCD Espanyol Barcelona,"Sep 14, 1995",Sep,9,Q3,S2
+Sergi Gómez,,RCD Espanyol Barcelona,"Mar 28, 1992",Mar,3,Q1,S1
+Simo Keddari,,RCD Espanyol Barcelona,"Feb 3, 2005 ",Feb,2,Q1,S1
+Adrià Pedrosa,,RCD Espanyol Barcelona,"May 13, 1998",May,5,Q2,S1
+Brian Oliván,,RCD Espanyol Barcelona,"Apr 1, 1994 ",Apr,4,Q2,S1
+Ronaël Pierre-Gabriel,,RCD Espanyol Barcelona,"Jun 13, 1998",Jun,6,Q2,S1
+Óscar Gil,,RCD Espanyol Barcelona,"Apr 26, 1998",Apr,4,Q2,S1
+Aleix Vidal,,RCD Espanyol Barcelona,"Aug 21, 1989",Aug,8,Q3,S2
+Omar El Hilali,,RCD Espanyol Barcelona,"Sep 12, 2003",Sep,9,Q3,S2
+Rubén Sánchez,,RCD Espanyol Barcelona,"Feb 4, 2001 ",Feb,2,Q1,S1
+Vinicius Souza,,RCD Espanyol Barcelona,"Jun 17, 1999",Jun,6,Q2,S1
+Sergi Darder,,RCD Espanyol Barcelona,"Dec 22, 1993",Dec,12,Q4,S2
+Edu Expósito,,RCD Espanyol Barcelona,"Aug 1, 1996 ",Aug,8,Q3,S2
+Keidi Bare,,RCD Espanyol Barcelona,"Aug 28, 1997",Aug,8,Q3,S2
+José Gragera,,RCD Espanyol Barcelona,"May 14, 2000",May,5,Q2,S1
+Denis Suárez,,RCD Espanyol Barcelona,"Jan 6, 1994 ",Jan,1,Q1,S1
+Javi Puado,,RCD Espanyol Barcelona,"May 25, 1998",May,5,Q2,S1
+Nico Melamed,,RCD Espanyol Barcelona,"Apr 11, 2001",Apr,4,Q2,S1
+José Carlos Lazo,,RCD Espanyol Barcelona,"Feb 16, 1996",Feb,2,Q1,S1
+Joselu,,RCD Espanyol Barcelona,"Mar 27, 1990",Mar,3,Q1,S1
+Martin Braithwaite,,RCD Espanyol Barcelona,"Jun 5, 1991 ",Jun,6,Q2,S1
+Dani Gómez,,RCD Espanyol Barcelona,"Jul 30, 1998",Jul,7,Q3,S2
+Fernando Martínez,,UD Almería,"Jun 10, 1990",Jun,6,Q2,S1
+Diego Mariño,,UD Almería,"May 9, 1990 ",May,5,Q2,S1
+Diego Fuoli,,UD Almería,"Oct 20, 1997",Oct,10,Q4,S2
+Kaiky,,UD Almería,"Jan 12, 2004",Jan,1,Q1,S1
+Rodrigo Ely,,UD Almería,"Nov 3, 1993 ",Nov,11,Q4,S2
+Srdjan Babic,,UD Almería,"Apr 22, 1996",Apr,4,Q2,S1
+Chumi,,UD Almería,"Mar 2, 1999 ",Mar,3,Q1,S1
+Sergio Akieme,,UD Almería,"Dec 16, 1997",Dec,12,Q4,S2
+Álex Centelles,,UD Almería,"Aug 30, 1999",Aug,8,Q3,S2
+Alejandro Pozo,,UD Almería,"Feb 22, 1999",Feb,2,Q1,S1
+Houboulang Mendes,,UD Almería,"May 4, 1998 ",May,5,Q2,S1
+Samú Costa,,UD Almería,"Nov 27, 2000",Nov,11,Q4,S2
+Iñigo Eguaras,,UD Almería,"Mar 7, 1992 ",Mar,3,Q1,S1
+Martin Svidersky,,UD Almería,"Oct 4, 2002 ",Oct,10,Q4,S2
+Lucas Robertone,,UD Almería,"Mar 18, 1997",Mar,3,Q1,S1
+Gonzalo Melero,,UD Almería,"Jan 2, 1994 ",Jan,1,Q1,S1
+Arnau Puigmal,,UD Almería,"Jan 10, 2001",Jan,1,Q1,S1
+César de la Hoz,,UD Almería,"Mar 30, 1992",Mar,3,Q1,S1
+Largie Ramazani,,UD Almería,"Feb 27, 2001",Feb,2,Q1,S1
+Lázaro,,UD Almería,"Mar 12, 2002",Mar,3,Q1,S1
+Adrián Embarba,,UD Almería,"May 7, 1992 ",May,5,Q2,S1
+Francisco Portillo,,UD Almería,"Jun 13, 1990",Jun,6,Q2,S1
+Léo Baptistão,,UD Almería,"Aug 26, 1992",Aug,8,Q3,S2
+El Bilal Touré,,UD Almería,"Oct 3, 2001 ",Oct,10,Q4,S2
+Luis Suárez,,UD Almería,"Dec 2, 1997 ",Dec,12,Q4,S2
+Marko Milovanovic,,UD Almería,"Aug 4, 2003 ",Aug,8,Q3,S2
+Dyego Sousa,,UD Almería,"Sep 14, 1989",Sep,9,Q3,S2
+Stole Dimitrievski,,Rayo Vallecano,"Dec 25, 1993",Dec,12,Q4,S2
+Miguel Ángel Morro,,Rayo Vallecano,"Sep 11, 2000",Sep,9,Q3,S2
+Diego López,,Rayo Vallecano,"Nov 3, 1981 ",Nov,11,Q4,S2
+Alejandro Catena,,Rayo Vallecano,"Oct 28, 1994",Oct,10,Q4,S2
+Florian Lejeune,,Rayo Vallecano,"May 20, 1991",May,5,Q2,S1
+Abdul Mumin,,Rayo Vallecano,"Jun 6, 1998 ",Jun,6,Q2,S1
+Esteban Saveljich,,Rayo Vallecano,"May 20, 1991",May,5,Q2,S1
+Mario Suárez,,Rayo Vallecano,"Feb 24, 1987",Feb,2,Q1,S1
+Fran García,,Rayo Vallecano,"Aug 14, 1999",Aug,8,Q3,S2
+Pep Chavarría,,Rayo Vallecano,"Apr 10, 1998",Apr,4,Q2,S1
+Iván Balliu,,Rayo Vallecano,"Jan 1, 1992 ",Jan,1,Q1,S1
+Mario Hernández,,Rayo Vallecano,"Jan 25, 1999",Jan,1,Q1,S1
+Pathé Ciss,,Rayo Vallecano,"Mar 16, 1994",Mar,3,Q1,S1
+Óscar Valentín,,Rayo Vallecano,"Aug 20, 1994",Aug,8,Q3,S2
+Santi Comesaña,,Rayo Vallecano,"Oct 5, 1996 ",Oct,10,Q4,S2
+Unai López,,Rayo Vallecano,"Oct 30, 1995",Oct,10,Q4,S2
+Óscar Trejo,,Rayo Vallecano,"Apr 26, 1988",Apr,4,Q2,S1
+José Pozo,,Rayo Vallecano,"Mar 15, 1996",Mar,3,Q1,S1
+Álvaro García,,Rayo Vallecano,"Oct 27, 1992",Oct,10,Q4,S2
+Isi Palazón,,Rayo Vallecano,"Dec 27, 1994",Dec,12,Q4,S2
+Salvi Sánchez,,Rayo Vallecano,"Mar 30, 1991",Mar,3,Q1,S1
+Raúl de Tomás,,Rayo Vallecano,"Oct 17, 1994",Oct,10,Q4,S2
+Sergio Camello,,Rayo Vallecano,"Feb 10, 2001",Feb,2,Q1,S1
+Radamel Falcao,,Rayo Vallecano,"Feb 10, 1986",Feb,2,Q1,S1
+Andrés Martín,,Rayo Vallecano,"Jul 11, 1999",Jul,7,Q3,S2
+Predrag Rajković,,RCD Mallorca,"Oct 31, 1995",Oct,10,Q4,S2
+Dominik Greif,,RCD Mallorca,"Apr 6, 1997 ",Apr,4,Q2,S1
+Leo Román,,RCD Mallorca,"Jul 6, 2000 ",Jul,7,Q3,S2
+Martin Valjent,,RCD Mallorca,"Dec 11, 1995",Dec,12,Q4,S2
+Dennis Hadzikadunic,,RCD Mallorca,"Jul 9, 1998 ",Jul,7,Q3,S2
+Antonio Raíllo,,RCD Mallorca,"Oct 8, 1991 ",Oct,10,Q4,S2
+José Copete,,RCD Mallorca,"Oct 10, 1999",Oct,10,Q4,S2
+Matija Nastasić,,RCD Mallorca,"Mar 28, 1993",Mar,3,Q1,S1
+Ludwig Augustinsson,,RCD Mallorca,"Apr 21, 1994",Apr,4,Q2,S1
+Jaume Costa,,RCD Mallorca,"Mar 18, 1988",Mar,3,Q1,S1
+Pablo Maffeo,,RCD Mallorca,"Jul 12, 1997",Jul,7,Q3,S2
+Giovanni González,,RCD Mallorca,"Sep 20, 1994",Sep,9,Q3,S2
+Rodrigo Battaglia,,RCD Mallorca,"Jul 12, 1991",Jul,7,Q3,S2
+Manu Morlanes,,RCD Mallorca,"Jan 12, 1999",Jan,1,Q1,S1
+Iddrisu Baba,,RCD Mallorca,"Jan 22, 1996",Jan,1,Q1,S1
+Iñigo Ruiz de Galarreta,,RCD Mallorca,"Aug 6, 1993 ",Aug,8,Q3,S2
+Antonio Sánchez,,RCD Mallorca,"Apr 22, 1997",Apr,4,Q2,S1
+Clément Grenier,,RCD Mallorca,"Jan 7, 1991 ",Jan,1,Q1,S1
+Kang-in Lee,,RCD Mallorca,"Feb 19, 2001",Feb,2,Q1,S1
+Dani Rodríguez,,RCD Mallorca,"Jun 6, 1988 ",Jun,6,Q2,S1
+Amath Ndiaye,,RCD Mallorca,"Jul 16, 1996",Jul,7,Q3,S2
+Vedat Muriqi,,RCD Mallorca,"Apr 24, 1994",Apr,4,Q2,S1
+Tino Kadewere,,RCD Mallorca,"Jan 5, 1996 ",Jan,1,Q1,S1
+Abdón Prats,,RCD Mallorca,"Dec 7, 1992 ",Dec,12,Q4,S2
+Ángel Rodríguez,,RCD Mallorca,"Apr 26, 1987",Apr,4,Q2,S1
+Sergio Asenjo,,Real Valladolid CF,"Jun 28, 1989",Jun,6,Q2,S1
+Jordi Masip,,Real Valladolid CF,"Jan 3, 1989 ",Jan,1,Q1,S1
+Javi Sánchez,,Real Valladolid CF,"Mar 14, 1997",Mar,3,Q1,S1
+Joaquín Fernández,,Real Valladolid CF,"May 31, 1996",May,5,Q2,S1
+Jawad El Yamiq,,Real Valladolid CF,"Feb 29, 1992",Feb,2,Q1,S1
+Lucas Olaza,,Real Valladolid CF,"Jul 21, 1994",Jul,7,Q3,S2
+Sergio Escudero,,Real Valladolid CF,"Sep 2, 1989 ",Sep,9,Q3,S2
+Luis Pérez,,Real Valladolid CF,"Feb 4, 1995 ",Feb,2,Q1,S1
+Iván Fresneda,,Real Valladolid CF,"Sep 28, 2004",Sep,9,Q3,S2
+Lucas Rosa,,Real Valladolid CF,"Apr 3, 2000 ",Apr,4,Q2,S1
+Martin Hongla,,Real Valladolid CF,"Mar 16, 1998",Mar,3,Q1,S1
+Mickaël Malsa,,Real Valladolid CF,"Oct 12, 1996",Oct,10,Q4,S2
+Monchu,,Real Valladolid CF,"Sep 13, 1999",Sep,9,Q3,S2
+Kike Pérez,,Real Valladolid CF,"Feb 14, 1997",Feb,2,Q1,S1
+Álvaro Aguado,,Real Valladolid CF,"May 1, 1996 ",May,5,Q2,S1
+Roque Mesa,,Real Valladolid CF,"Jun 7, 1989 ",Jun,6,Q2,S1
+Anuar,,Real Valladolid CF,"Jan 15, 1995",Jan,1,Q1,S1
+Selim Amallah,,Real Valladolid CF,"Nov 15, 1996",Nov,11,Q4,S2
+Darwin Machís,,Real Valladolid CF,"Feb 7, 1993 ",Feb,2,Q1,S1
+Kenedy,,Real Valladolid CF,"Feb 8, 1996 ",Feb,2,Q1,S1
+Gonzalo Plata,,Real Valladolid CF,"Nov 1, 2000 ",Nov,11,Q4,S2
+Óscar Plano,,Real Valladolid CF,"Feb 11, 1991",Feb,2,Q1,S1
+Iván Sánchez,,Real Valladolid CF,"Sep 23, 1992",Sep,9,Q3,S2
+Cyle Larin,,Real Valladolid CF,"Apr 17, 1995",Apr,4,Q2,S1
+Sergio León,,Real Valladolid CF,"Jan 6, 1989 ",Jan,1,Q1,S1
+Édgar Badía,,Elche CF,"Feb 12, 1992",Feb,2,Q1,S1
+Axel Werner,,Elche CF,"Feb 28, 1996",Feb,2,Q1,S1
+Lisandro Magallán,,Elche CF,"Sep 27, 1993",Sep,9,Q3,S2
+Enzo Roco,,Elche CF,"Aug 16, 1992",Aug,8,Q3,S2
+Diego González,,Elche CF,"Jan 28, 1995",Jan,1,Q1,S1
+Pedro Bigas,,Elche CF,"May 15, 1990",May,5,Q2,S1
+Gonzalo Verdú,,Elche CF,"Oct 21, 1988",Oct,10,Q4,S2
+John Nwankwo,,Elche CF,"Sep 25, 2000",Sep,9,Q3,S2
+Lautaro Blanco,,Elche CF,"Feb 19, 1999",Feb,2,Q1,S1
+Nicolás Fernández Mercau,,Elche CF,"Jan 11, 2000",Jan,1,Q1,S1
+Carlos Clerc,,Elche CF,"Feb 21, 1992",Feb,2,Q1,S1
+José Ángel Carmona,,Elche CF,"Jan 29, 2002",Jan,1,Q1,S1
+Pol Lirola,,Elche CF,"Aug 13, 1997",Aug,8,Q3,S2
+Helibelton Palacios,,Elche CF,"Jun 11, 1993",Jun,6,Q2,S1
+Omar Mascarell,,Elche CF,"Feb 2, 1993 ",Feb,2,Q1,S1
+Gerard Gumbau,,Elche CF,"Dec 18, 1994",Dec,12,Q4,S2
+Raúl Guti,,Elche CF,"Dec 30, 1996",Dec,12,Q4,S2
+Randy Nteka,,Elche CF,"Dec 6, 1997 ",Dec,12,Q4,S2
+Pere Milla,,Elche CF,"Sep 23, 1992",Sep,9,Q3,S2
+Tete Morente,,Elche CF,"Dec 4, 1996 ",Dec,12,Q4,S2
+Fidel,,Elche CF,"Oct 27, 1989",Oct,10,Q4,S2
+Álex Collado,,Elche CF,"Apr 22, 1999",Apr,4,Q2,S1
+Josan,,Elche CF,"Dec 3, 1989 ",Dec,12,Q4,S2
+Lucas Boyé,,Elche CF,"Feb 28, 1996",Feb,2,Q1,S1
+Ezequiel Ponce,,Elche CF,"Mar 29, 1997",Mar,3,Q1,S1
+Conan Ledesma,,Cádiz CF,"Feb 13, 1993",Feb,2,Q1,S1
+David Gil,,Cádiz CF,"Jan 11, 1994",Jan,1,Q1,S1
+Víctor Chust,,Cádiz CF,"Mar 5, 2000 ",Mar,3,Q1,S1
+Fali,,Cádiz CF,"Aug 12, 1993",Aug,8,Q3,S2
+Jorge Meré,,Cádiz CF,"Apr 17, 1997",Apr,4,Q2,S1
+Luis Hernández,,Cádiz CF,"Apr 14, 1989",Apr,4,Q2,S1
+Juan Cala,,Cádiz CF,"Nov 26, 1989",Nov,11,Q4,S2
+Momo Mbaye,,Cádiz CF,"Jun 28, 1998",Jun,6,Q2,S1
+Alfonso Espino,,Cádiz CF,"Jan 5, 1992 ",Jan,1,Q1,S1
+Santiago Arzamendia,,Cádiz CF,"May 5, 1998 ",May,5,Q2,S1
+Joseba Zaldua,,Cádiz CF,"Jun 24, 1992",Jun,6,Q2,S1
+Iza Carcelén,,Cádiz CF,"Apr 23, 1993",Apr,4,Q2,S1
+Raúl Parra,,Cádiz CF,"Nov 26, 1999",Nov,11,Q4,S2
+José Mari,,Cádiz CF,"Dec 6, 1987 ",Dec,12,Q4,S2
+Jon Ander Garrido,,Cádiz CF,"Oct 9, 1989 ",Oct,10,Q4,S2
+Rubén Alcaraz,,Cádiz CF,"May 1, 1991 ",May,5,Q2,S1
+Gonzalo Escalante,,Cádiz CF,"Mar 27, 1993",Mar,3,Q1,S1
+Fede San Emeterio,,Cádiz CF,"Mar 16, 1997",Mar,3,Q1,S1
+Youba Diarra,,Cádiz CF,"Mar 24, 1998",Mar,3,Q1,S1
+Álex Fernández,,Cádiz CF,"Oct 15, 1992",Oct,10,Q4,S2
+Brian Ocampo,,Cádiz CF,"Jun 25, 1999",Jun,6,Q2,S1
+Théo Bongonda,,Cádiz CF,"Nov 20, 1995",Nov,11,Q4,S2
+Iván Alejo,,Cádiz CF,"Feb 10, 1995",Feb,2,Q1,S1
+Choco Lozano,,Cádiz CF,"Apr 25, 1993",Apr,4,Q2,S1
+Roger Martí,,Cádiz CF,"Jan 3, 1991 ",Jan,1,Q1,S1
+Sergi Guardiola,,Cádiz CF,"May 29, 1991",May,5,Q2,S1
+Rubén Sobrino,,Cádiz CF,"Jun 1, 1992 ",Jun,6,Q2,S1
+Álvaro Negredo,,Cádiz CF,"Aug 20, 1985",Aug,8,Q3,S2
+Chris Ramos,,Cádiz CF,"Jan 18, 1997",Jan,1,Q1,S1
